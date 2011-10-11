@@ -8,5 +8,6 @@
   <project name="upstream/meta-openembedded" path="meta-oe"/>
   <project name="upstream/meta-yocto" path="meta-yocto"/>
   <project name="mel/sb-core" path="sb-core"/>
+  <project name="lda" path="sb-core/recipes/lda-module/files"/>
   <project name="mel/fsl-p4080ds" path="fsl-p4080ds"/>
 </manifest>
