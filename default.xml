@@ -5,6 +5,9 @@
   <default remote="origin" revision="master"/>
   
   <project name="lda" path="sb-core/recipes/lda-module/files"/>
+  <project name="mel/fsl-mpc837x-rdb" path="fsl-mpc837x-rdb"/>
+  <project name="mel/fsl-mpc8572ds" path="fsl-mpc8572ds"/>
+  <project name="mel/fsl-p2020rdb" path="fsl-p2020rdb"/>
   <project name="mel/fsl-p4080ds" path="fsl-p4080ds"/>
   <project name="mel/sb-core" path="sb-core"/>
   <project name="mel/scripts" path="scripts"/>
