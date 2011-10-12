@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="origin" fetch="http://easource.alm.mentorg.com/git/" />
-  <default remote="origin" revision="master" />
-
-  <project name="upstream/bitbake" path="scripts/bitbake"/>
-  <project name="upstream/openembedded-core" path="oe-core"/>
-  <project name="upstream/meta-openembedded" path="meta-oe"/>
-  <project name="upstream/meta-yocto" path="meta-yocto"/>
-  <project name="mel/sb-core" path="sb-core"/>
+  <remote fetch="http://easource.alm.mentorg.com/git/" name="origin"/>
+  
+  <default remote="origin" revision="master"/>
+  
   <project name="lda" path="sb-core/recipes/lda-module/files"/>
   <project name="mel/fsl-p4080ds" path="fsl-p4080ds"/>
+  <project name="mel/sb-core" path="sb-core"/>
+  <project name="mel/scripts" path="scripts"/>
+  <project name="upstream/bitbake" path="bitbake"/>
+  <project name="upstream/meta-openembedded" path="meta-oe"/>
+  <project name="upstream/meta-yocto" path="meta-yocto"/>
+  <project name="upstream/openembedded-core" path="oe-core"/>
 </manifest>
