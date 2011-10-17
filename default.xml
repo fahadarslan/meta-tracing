@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="http://easource.alm.mentorg.com/git/" name="origin"/>
-  
-  <default remote="origin" revision="master"/>
-  
-  <project name="lda" path="sb-core/recipes/lda-module/files"/>
+  <remote fetch="git://github.alm.mentorg.com/" name="github"/>
+  <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
+
+  <default remote="github" revision="master"/>
+
   <project name="mel/fsl-mpc837x-rdb" path="fsl-mpc837x-rdb"/>
   <project name="mel/fsl-mpc8572ds" path="fsl-mpc8572ds"/>
   <project name="mel/fsl-p2020rdb" path="fsl-p2020rdb"/>
   <project name="mel/fsl-p4080ds" path="fsl-p4080ds"/>
   <project name="mel/sb-core" path="sb-core"/>
+  <project remote="easource" name="lda" path="sb-core/recipes/lda-module/files"/>
   <project name="mel/scripts" path="scripts"/>
-  <project name="upstream/bitbake" path="bitbake"/>
-  <project name="upstream/meta-openembedded" path="meta-oe"/>
-  <project name="upstream/meta-yocto" path="meta-yocto"/>
-  <project name="upstream/openembedded-core" path="oe-core"/>
+  <project name="mirror/bitbake" path="bitbake"/>
+  <project name="mirror/meta-oe" path="meta-oe"/>
+  <project name="mirror/meta-yocto" path="meta-yocto"/>
+  <project name="mirror/oe-core" path="oe-core"/>
 </manifest>
