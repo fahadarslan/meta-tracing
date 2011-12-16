@@ -17,8 +17,8 @@
   <project name="mel/scripts.git" path="scripts"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="71b53a3f0766ca464560a1f6a449f9424fbdf7ae"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="b37fc4e65b53017fa87b61a24af5f16f2e571c47"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="487e6c18670f406e14be94c5998d08d73a0bc73f"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="11fbc9fb4efaa59aca85ba352f6ebc3412eaedd0"/>
+  <project name="mirror/meta-ti.git" path="meta-ti" revision="8f30ad9328b050a635c61bbea275ee59097729b5"/>
   <project name="mirror/meta-yocto.git" path="meta-yocto" revision="cec297fc28259105852c12001215c81581db4463"/>
-  <project name="mirror/oe-core.git" path="oe-core" revision="4215b2fb04b3ed61e8e1cf0847639cf6fe31d337"/>
+  <project name="mirror/oe-core.git" remote="oe" revision="0eb139619301d0efee330932eba3617dcb39284e"/>
 </manifest>
