@@ -12,6 +12,8 @@
   <project name="mel/fsl-p1022ds.git" path="fsl-p1022ds"/>
   <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
   <project name="mel/mips32-74k.git" path="mips32-74k"/>
+  <project name="mel/pandaboard.git" path="pandaboard"/>
+
   <project name="mel/sb-core.git" path="sb-core"/>
   <project remote="easource" name="lda.git" path="sb-core/recipes/lda-module/files"/>
   <project name="mel/scripts.git" path="scripts"/>
