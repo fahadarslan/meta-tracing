@@ -18,9 +18,9 @@
   <project remote="easource" name="lda.git" path="sb-core/recipes/lda-module/files"/>
   <project name="mel/scripts.git" path="scripts"/>
 
-  <project name="mirror/bitbake.git" path="bitbake" revision="6c0babf08909307ab69a66ed06e77e8818b2a8c5"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="c65139cd012231db6c3994481d11fe118773afab"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="f9f283ea3cbd24cc9ba7c5ba830f10e30da5ea82"/>
-  <project name="mirror/meta-yocto.git" path="meta-yocto" revision="1b3ff9c1481b9fee7220b933a014ad1b6b5f187b"/>
-  <project name="mirror/oe-core.git" path="oe-core" revision="de679a3036ebef1c7d7b8ee23f05590c95e498d9"/>
+  <project name="mirror/bitbake.git" path="bitbake" revision="2677254cf9792cee083605267570d93b425cc2db"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="18266de7fc4e87754831c5e0e8ad09ccd94c93b4"/>
+  <project name="mirror/meta-ti.git" path="meta-ti" revision="a4bc237c171152e4d6a014691e7c3060e1fcfd4f"/>
+  <project name="mirror/meta-yocto.git" path="meta-yocto" revision="b473357a23b9d75b22c5ec3dc444245112d84f05"/>
+  <project name="mirror/oe-core.git" path="oe-core" revision="fff18970706913e7fd7f4a119d798dddb44b388a"/>
 </manifest>
