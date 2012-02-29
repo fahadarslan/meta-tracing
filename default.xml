@@ -3,7 +3,7 @@
   <remote fetch="git://github.alm.mentorg.com/" name="github"/>
   <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
-  <default remote="github" revision="master"/>
+  <default remote="github" revision="release/5.0.0"/>
 
   <project name="mel/fsl-mpc837x-rdb.git" path="fsl-mpc837x-rdb"/>
   <project name="mel/fsl-mpc8572ds.git" path="fsl-mpc8572ds"/>
@@ -16,7 +16,7 @@
   <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mel/sb-core.git" path="sb-core"/>
-  <project remote="easource" name="lda.git" path="sb-core/recipes/lda-module/files"/>
+  <project remote="easource" name="lda.git" path="sb-core/recipes/lda-module/files" revision="master"/>
   <project name="mel/scripts.git" path="scripts"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="4d173d441d2beb8e6492b6b1842682f8cf32e6cc"/>
