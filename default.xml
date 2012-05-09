@@ -16,6 +16,7 @@
   <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mel/sb-core.git" path="sb-core"/>
+  <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/scripts.git" path="scripts"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="283dbbbf5d34adb4c9e3aa87e3925fdebe21ff42"/>
