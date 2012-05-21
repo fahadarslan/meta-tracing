@@ -16,6 +16,7 @@
   <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mel/sb-core.git" path="sb-core"/>
+  <project name="mirror/meta-mentor.git" path="meta-mentor"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/scripts.git" path="scripts"/>
 
