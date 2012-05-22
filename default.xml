@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="git://github.alm.mentorg.com/" name="github"/>
   <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
@@ -16,7 +17,7 @@
   <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mel/sb-core.git" path="sb-core"/>
-  <project name="mirror/meta-mentor.git" path="meta-mentor"/>
+  <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/scripts.git" path="scripts"/>
 
