@@ -14,14 +14,16 @@
   <project name="mel/pandaboard.git" path="pandaboard"/>
   <project name="mel/broadcom-xlp.git" path="broadcom-xlp"/>
   <project name="mel/intel-crossville.git" path="intel-crossville"/>
-  <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mel/sb-core.git" path="sb-core"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/scripts.git" path="scripts"/>
+  <project name="mel/manufacturing.git" path="manufacturing"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="56c1ab18fcaf4ac245dcb412ed55e8e0af07883b"/>
+  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="d7cd549e529238030f434bf0cb2e85bd3d917813"/>
+  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="7126d9b01a7669a4850593716dc2b7b4c32def06"/>
   <project name="mirror/meta-intel.git" path="meta-intel" revision="a62c485edffed30ea95658760948fd50925adfb0"/>
   <project name="mirror/meta-oe.git" path="meta-oe" revision="5b6549cd03b26c2cf300ab85ee6334f4d7389b1d"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="da7c9449fa3272f63e0ba1f8a42fd3aba66e1ceb"/>
