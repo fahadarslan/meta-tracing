@@ -28,5 +28,5 @@
   <project name="mirror/meta-oe.git" path="meta-oe" revision="f3b72f9f147b27d2a9566cb417f7f84d746184df"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="30fb40ebc13614a74c2e237927c60ac43e01d1bc"/>
   <project name="mirror/meta-yocto.git" path="meta-yocto" revision="644471a6dc410d194a541374d6c31e87118a7fba"/>
-  <project name="mirror/oe-core.git" path="oe-core" revision="c4d349bf37b766427f5904ccbe7eda2a3f22ba91"/>
+  <project name="mirror/oe-core.git" path="oe-core" revision="f4b5afe46ff018570c1949653eb6995428827f6f"/>
 </manifest>
