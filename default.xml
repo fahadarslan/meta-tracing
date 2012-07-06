@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="git://github.alm.mentorg.com/" name="github"/>
+  <remote fetch="https://github.com/" name="gh-public"/>
   <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
   <default remote="github" revision="master"/>
@@ -20,6 +21,7 @@
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/scripts.git" path="scripts"/>
   <project name="mel/manufacturing.git" path="manufacturing"/>
+  <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="0fd960fdea83874eedb541cbc2920257e0f3fb81"/>
   <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="d7cd549e529238030f434bf0cb2e85bd3d917813"/>
