@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/" name="gh-public"/>
   <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
-  <default remote="github" revision="master"/>
+  <default remote="github" revision="master" sync-j="4"/>
 
   <project name="mel/fsl-p2020rdb.git" path="fsl-p2020rdb"/>
   <project name="mel/fsl-p4080ds.git" path="fsl-p4080ds"/>
