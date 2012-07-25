@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="git://github.alm.mentorg.com/" name="github"/>
-  <remote fetch="https://github.com/" name="gh-public"/>
+  <remote fetch="http://github.com/" name="gh-public"/>
   <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
   <default remote="github" revision="master" sync-j="4"/>
