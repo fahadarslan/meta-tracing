@@ -23,11 +23,11 @@
   <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
   <project name="mirror/bitbake.git" path="bitbake" revision="e49a656a499355a5c6e7eb00bf5b8f1795e8dddb"/>
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="21b2da4912a2581f4ea3c0dabef538472032cd8c"/>
+  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="71a746d48fd3723ec6507fb78296dd9cbff8bef5"/>
   <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="42e8ca202c8003cad0e8b7b61ec10269319acc0f"/>
-  <project name="mirror/meta-intel.git" path="meta-intel" revision="961f835e4f5dd2d02b34b7fce13316ec7b0bf1c4"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="9afc488a1b97bfc5378f139ba04a7a5297b15fdb"/>
+  <project name="mirror/meta-intel.git" path="meta-intel" revision="7bd163e41f6b861448ab19a13ded4b7c48e16641"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="5a5198ff6eccb097b785c22a256a072a41c7f2cd"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="9bc77dff5f84578e259f8225bfa0656d94a2a60a"/>
   <project name="mirror/meta-yocto.git" path="meta-yocto" revision="21967a06a27ead4f2ef87fadf79135017d512a40"/>
-  <project name="mirror/oe-core.git" path="oe-core" revision="651b223c5fc93c7504e304e954b9ae4640ed47c6"/>
+  <project name="mirror/oe-core.git" path="oe-core" revision="4029ce1a15e1dbd374444ee77ccf2a915e463b7b"/>
 </manifest>
