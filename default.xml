@@ -22,7 +22,7 @@
   <project name="mel/manufacturing.git" path="manufacturing"/>
   <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
-  <project name="mirror/bitbake.git" path="bitbake" revision="e49a656a499355a5c6e7eb00bf5b8f1795e8dddb"/>
+  <project name="mirror/bitbake.git" path="bitbake" revision="75a7caf6f2d9f4399c95b9249db1b3bc5a48dc61"/>
   <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="71a746d48fd3723ec6507fb78296dd9cbff8bef5"/>
   <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="42e8ca202c8003cad0e8b7b61ec10269319acc0f"/>
   <project name="mirror/meta-intel.git" path="meta-intel" revision="7bd163e41f6b861448ab19a13ded4b7c48e16641"/>
