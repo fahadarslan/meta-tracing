@@ -7,7 +7,6 @@
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mel/fsl-p2020rdb.git" path="fsl-p2020rdb"/>
   <project name="mel/fsl-p4080ds.git" path="fsl-p4080ds"/>
   <project name="mel/fsl-mx6.git" path="fsl-mx6"/>
   <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
