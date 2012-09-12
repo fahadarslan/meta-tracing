@@ -3,11 +3,9 @@
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
   <remote fetch="git://github.alm.mentorg.com/" name="github"/>
   <remote fetch="http://github.com/" name="gh-public"/>
-  <remote fetch="http://easource.alm.mentorg.com/git/" name="easource"/>
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mel/fsl-p4080ds.git" path="fsl-p4080ds"/>
   <project name="mel/fsl-mx6.git" path="fsl-mx6"/>
   <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
   <project name="mel/mips32-74k.git" path="mips32-74k"/>
