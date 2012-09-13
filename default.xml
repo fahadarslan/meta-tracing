@@ -15,7 +15,6 @@
 
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="mel/scripts.git" path="scripts"/>
   <project name="mel/manufacturing.git" path="manufacturing"/>
   <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
