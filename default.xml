@@ -6,7 +6,7 @@
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mirror/poky.git" path="poky" revision="1.3_M5"/>
+  <project name="mirror/poky.git" path="poky" revision="df5f9a3e6dfcf8e8f57132843a024b44c0bd90fc"/>
 
   <project name="mirror/meta-oe.git" path="meta-oe" revision="da4d1ea16bef34ce5631877f08f4bea12653d061"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
