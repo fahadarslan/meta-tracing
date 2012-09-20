@@ -8,15 +8,15 @@
 
   <project name="mirror/poky.git" path="poky" revision="df5f9a3e6dfcf8e8f57132843a024b44c0bd90fc"/>
 
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="da4d1ea16bef34ce5631877f08f4bea12653d061"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="b232837c402cdbc5f2f1bd2afee5200df1383373"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/manufacturing.git" path="manufacturing"/>
   <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
   <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="03e79b3555c8e26aed250efc419f8c228aee7fca"/>
-  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="009f042b3feecb6674dc770d2ea56a409d03e502"/>
-  <project name="mirror/meta-intel.git" path="meta-intel" revision="c3644c66fad3d9a91259ea382e72304dc6576ca0"/>
+  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="146d1ed22ca5a9e66ca8c2c53640f5e1d0c0ba30"/>
+  <project name="mirror/meta-intel.git" path="meta-intel" revision="83f7e08dfadb73904c258b8b6a14a91482e69672"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="7b288d7d05b803032e125f14a3a845c514728003"/>
 
   <project name="mel/fsl-mx6.git" path="fsl-mx6"/>
