@@ -6,23 +6,22 @@
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mirror/poky.git" path="poky" revision="df5f9a3e6dfcf8e8f57132843a024b44c0bd90fc"/>
+  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="b3fa3b35b9f706deadaacad9044b5cca397e6380"/>
+  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="146d1ed22ca5a9e66ca8c2c53640f5e1d0c0ba30"/>
+  <project name="mirror/meta-intel.git" path="meta-intel" revision="102814d8ba2735d1e24c75b297508f863da9915e"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="7c5fb741a4e89e2977b823717ca20e9282a02bd1"/>
+  <project name="mirror/meta-ti.git" path="meta-ti" revision="7b288d7d05b803032e125f14a3a845c514728003"/>
+  <project name="mirror/poky.git" path="poky" revision="e8738b83b70eb794c5509ec7706bf64c68249af1"/>
 
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="b232837c402cdbc5f2f1bd2afee5200df1383373"/>
+  <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/manufacturing.git" path="manufacturing"/>
-  <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
 
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="03e79b3555c8e26aed250efc419f8c228aee7fca"/>
-  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="146d1ed22ca5a9e66ca8c2c53640f5e1d0c0ba30"/>
-  <project name="mirror/meta-intel.git" path="meta-intel" revision="83f7e08dfadb73904c258b8b6a14a91482e69672"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="7b288d7d05b803032e125f14a3a845c514728003"/>
-
-  <project name="mel/fsl-mx6.git" path="fsl-mx6"/>
-  <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
-  <project name="mel/mips32-74k.git" path="mips32-74k"/>
-  <project name="mel/pandaboard.git" path="pandaboard"/>
   <project name="mel/broadcom-xlp.git" path="broadcom-xlp"/>
   <project name="mel/intel-crossville.git" path="intel-crossville"/>
+  <project name="mel/mips32-74k.git" path="mips32-74k"/>
+  <project name="mel/pandaboard.git" path="pandaboard"/>
+  <project name="mel/fsl-mx6.git" path="fsl-mx6"/>
+  <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
 </manifest>
