@@ -13,7 +13,7 @@
   <project name="mirror/meta-ti.git" path="meta-ti" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
   <project name="mirror/poky.git" path="poky" revision="danny"/>
 
-  <project name="MentorEmbedded/meta-sourcery.git" path="meta-sourcery" remote="gh-public"/>
+  <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel/manufacturing.git" path="manufacturing"/>
