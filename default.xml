@@ -6,12 +6,12 @@
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="d0b3f41cabd7cb201a3fce91331eb2370dd4f244"/>
-  <project groups="default" name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="c0bb5949ce44381639b9adf6980ee88fa6c41737"/>
-  <project groups="default" name="mirror/meta-intel.git" path="meta-intel" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
-  <project name="mirror/poky.git" path="poky" revision="danny"/>
+  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="31e8a477d5e738d9f04e61272cf851387fc42769"/>
+  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="9329b7b468478d6ff6172da39539fa401e6b92e6"/>
+  <project name="mirror/meta-intel.git" path="meta-intel" revision="4e05f868bb8ab2fd80b510a6bee30795e634655d"/>
+  <project name="mirror/meta-oe.git" path="meta-oe" revision="2c1f670d731fb1c4a2167b110e9ae1c3288a8108"/>
+  <project name="mirror/meta-ti.git" path="meta-ti" revision="4f3522a9dc7f04e2f650199d66badb08dad214c6"/>
+  <project name="mirror/poky.git" path="poky" revision="8ce23f569584f195391bc5c68a780e1bf54e4360"/>
 
   <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
