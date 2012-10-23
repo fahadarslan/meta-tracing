@@ -11,7 +11,7 @@
   <project name="mirror/meta-intel.git" path="meta-intel" revision="4e05f868bb8ab2fd80b510a6bee30795e634655d"/>
   <project name="mirror/meta-oe.git" path="meta-oe" revision="2c1f670d731fb1c4a2167b110e9ae1c3288a8108"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="4f3522a9dc7f04e2f650199d66badb08dad214c6"/>
-  <project name="mirror/poky.git" path="poky" revision="8ce23f569584f195391bc5c68a780e1bf54e4360"/>
+  <project name="mirror/poky.git" path="poky" revision="60a26d24964832ce390b4c1f0d134b744dc9201b"/>
 
   <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
