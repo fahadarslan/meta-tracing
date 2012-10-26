@@ -12,7 +12,7 @@
   <project name="mirror/meta-oe.git" path="meta-oe" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
 
-  <project name="mirror/poky.git" path="poky" revision="1.3"/>
+  <project name="mirror/poky.git" path="poky" revision="57154f33552873a57f5513024c80ae3b1d38231c"/>
 
   <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public" revision="danny"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="danny"/>
