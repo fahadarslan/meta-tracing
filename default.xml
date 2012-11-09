@@ -9,6 +9,7 @@
   <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="d0b3f41cabd7cb201a3fce91331eb2370dd4f244"/>
   <project groups="default" name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="c0bb5949ce44381639b9adf6980ee88fa6c41737"/>
   <project groups="default" name="mirror/meta-intel.git" path="meta-intel" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
+  <project groups="default" name="mirror/meta-ivi.git" path="meta-ivi" revision="c7f5754343bd05723153fb23b4acb09629c545c6"/>
   <project name="mirror/meta-oe.git" path="meta-oe" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
   <project name="mirror/meta-ti.git" path="meta-ti" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
 
@@ -25,4 +26,8 @@
   <project name="mel/mips32-74k.git" path="mips32-74k"/>
   <project name="mel/pandaboard.git" path="pandaboard"/>
   <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
+
+  <project name="mel/rb-ivi.git" path="rb-ivi"/>
+  <project name="mel/ivi-adit.git" path="ivi-adit"/>
+  <project name="mel/ivi-genivi.git" path="ivi-genivi"/>
 </manifest>
