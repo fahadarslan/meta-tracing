@@ -6,12 +6,12 @@
 
   <default remote="github" revision="master" sync-j="4"/>
 
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="faee1d31ce9956ed52ffe8f52f47c1f4dfdb100a" upstream="master"/>
-  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="f55c8a97bbcc5a069d68440571a7e9eab9336bd8" upstream="master"/>
-  <project name="mirror/meta-intel.git" path="meta-intel" revision="52a9a5aec7cc61d115e72015fd2451facec739cb" upstream="master"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="87d5eaf8a336516c22ec4a498ed40b9983306496" upstream="master"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="53dcf7977a86714cbd27f919a473dac8f6f16434" upstream="master"/>
-  <project name="mirror/poky.git" path="poky" revision="e5822cf6c8373746faca0271d6394a5380edd738" upstream="master"/>
+  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm"/>
+  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc"/>
+  <project name="mirror/meta-intel.git" path="meta-intel"/>
+  <project name="mirror/meta-oe.git" path="meta-oe"/>
+  <project name="mirror/meta-ti.git" path="meta-ti"/>
+  <project name="mirror/poky.git" path="poky"/>
 
   <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
