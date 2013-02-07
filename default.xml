@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="git://github.alm.mentorg.com/" name="github"/>
-  <remote fetch="git://github.com/" name="gh-public"/>
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel"/>
+  <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="github" revision="master" sync-j="4"/>
+  <default remote="mel" revision="master" sync-j="4"/>
 
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm"/>
-  <project name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc"/>
-  <project name="mirror/meta-intel.git" path="meta-intel"/>
-  <project name="mirror/meta-oe.git" path="meta-oe"/>
-  <project name="mirror/meta-ti.git" path="meta-ti"/>
-  <project name="mirror/poky.git" path="poky"/>
-
-  <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public"/>
+  <project name="poky.git" path="poky" remote="yocto"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
-  <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
+  <project name="meta-sourcery.git" path="meta-sourcery"/>
 
-  <project name="mel/broadcom-xlp.git" path="broadcom-xlp"/>
-  <project name="mel/intel-crossville.git" path="intel-crossville"/>
-  <project name="mel/mips32-74k.git" path="mips32-74k"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github"/>
 
-  <project name="mel/manufacturing.git" path="manufacturing"/>
-  <project name="mel/scripts.git" path="scripts"/>
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
+  <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
+  <project name="mel-intel-crossville.git" path="intel-crossville"/>
+  <project name="mel-mips32-74k.git" path="mips32-74k"/>
+  <project name="mel-manufacturing.git" path="manufacturing"/>
+  <project name="mel-scripts.git" path="scripts"/>
 </manifest>
