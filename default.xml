@@ -1,36 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="git://github.alm.mentorg.com/" name="github"/>
-  <remote fetch="git://github.com/" name="gh-public"/>
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel"/>
+  <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="github" revision="release/6.0.0" sync-j="4"/>
+  <default remote="mel" revision="release/6.0.0" sync-j="4"/>
 
-  <project name="mirror/meta-fsl-arm.git" path="meta-fsl-arm" revision="d0b3f41cabd7cb201a3fce91331eb2370dd4f244"/>
-  <project groups="default" name="mirror/meta-fsl-ppc.git" path="meta-fsl-ppc" revision="c0bb5949ce44381639b9adf6980ee88fa6c41737"/>
-  <project groups="default" name="mirror/meta-intel.git" path="meta-intel" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
-  <project groups="default" name="mirror/meta-ivi.git" path="meta-ivi" revision="abb8dfa3220007444b69c4cbd4dc6ead0b7ec7f8"/>
-  <project name="mirror/meta-oe.git" path="meta-oe" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
-  <project name="mirror/meta-ti.git" path="meta-ti" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
-
-  <project name="mirror/poky.git" path="poky" revision="57154f33552873a57f5513024c80ae3b1d38231c"/>
-
-  <project name="MentorEmbedded/meta-sourcery" path="meta-sourcery" remote="gh-public" revision="danny"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="57154f33552873a57f5513024c80ae3b1d38231c"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="danny"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="danny"/>
 
-  <project name="mel/meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="mel/manufacturing.git" path="manufacturing"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="abb8dfa3220007444b69c4cbd4dc6ead0b7ec7f8"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="d0b3f41cabd7cb201a3fce91331eb2370dd4f244"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="c0bb5949ce44381639b9adf6980ee88fa6c41737"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
 
-  <project name="mel/broadcom-xlp.git" path="broadcom-xlp"/>
-  <project name="mel/intel-crossville.git" path="intel-crossville"/>
-  <project name="mel/mips32-74k.git" path="mips32-74k"/>
-  <project name="mel/pandaboard.git" path="pandaboard"/>
-  <project name="mel/ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
+  <project name="mel-meta-meis.git" path="meta-meis"/>
+  <project name="mel-manufacturing.git" path="manufacturing"/>
+  <project name="mel-scripts.git" path="scripts"/>
+  <project name="mel-rb-ivi.git" path="rb-ivi"/>
+  <project name="mel-ivi-adit.git" path="ivi-adit"/>
+  <project name="mel-ivi-genivi.git" path="ivi-genivi"/>
 
-  <project name="mel/scripts.git" path="scripts"/>
-
-  <project name="mel/meta-meis.git" path="meta-meis"/>
-  <project name="mel/rb-ivi.git" path="rb-ivi"/>
-  <project name="mel/ivi-adit.git" path="ivi-adit"/>
-  <project name="mel/ivi-genivi.git" path="ivi-genivi"/>
+  <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
+  <project name="mel-intel-crossville.git" path="intel-crossville"/>
+  <project name="mel-mips32-74k.git" path="mips32-74k"/>
+  <project name="mel-pandaboard.git" path="pandaboard"/>
+  <project name="mel-ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
 </manifest>
