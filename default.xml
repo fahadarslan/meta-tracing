@@ -6,7 +6,7 @@
 
   <default remote="mel" revision="release/6.0.0" sync-j="4"/>
 
-  <project name="poky.git" path="poky" remote="yocto" revision="57154f33552873a57f5513024c80ae3b1d38231c"/>
+  <project name="poky.git" path="poky" revision="mentor/danny"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="mentor/mel6"/>
   <project name="meta-sourcery.git" path="meta-sourcery" revision="danny"/>
 
