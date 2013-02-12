@@ -21,6 +21,7 @@
   <project name="mel-meta-meis.git" path="meta-meis"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
+  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
   <project name="mel-rb-ivi.git" path="rb-ivi"/>
   <project name="mel-ivi-adit.git" path="ivi-adit"/>
   <project name="mel-ivi-genivi.git" path="ivi-genivi"/>
