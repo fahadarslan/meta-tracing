@@ -17,8 +17,9 @@
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
 
+  <project name="mel-meta-meatp.git" path="meta-meatp" revision="meibp/2013"/>
+
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="mel-meta-meatp.git" path="meta-meatp"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
   <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
