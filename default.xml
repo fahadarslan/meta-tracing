@@ -18,7 +18,7 @@
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="mel-meta-meis.git" path="meta-meis"/>
+  <project name="mel-meta-meatp.git" path="meta-meatp"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
   <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
