@@ -9,6 +9,7 @@
   <project name="poky.git" path="poky" remote="yocto"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="meta-sourcery.git" path="meta-sourcery"/>
+  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
