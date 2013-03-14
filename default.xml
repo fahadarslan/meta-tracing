@@ -9,7 +9,6 @@
   <project name="poky.git" path="poky" remote="yocto"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="meta-sourcery.git" path="meta-sourcery"/>
-  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
@@ -18,6 +17,8 @@
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
+  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
+  <project name="meta-marzen.git" path="meta-marzen"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
   <project name="mel-intel-crossville.git" path="intel-crossville"/>
   <project name="mel-mips32-74k.git" path="mips32-74k"/>
