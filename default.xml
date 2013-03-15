@@ -6,15 +6,15 @@
 
   <default remote="mel" revision="master" sync-j="4"/>
 
-  <project name="poky.git" path="poky" remote="yocto"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="meta-sourcery.git" path="meta-sourcery"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b85c4a62f0fca16e636c5d9722d8c7b14383c4a5" upstream="master"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="9f35cd43477a0fd76deca0e2f37d1dbf46f6c8f1" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="7a5e19e0c7d5967ef7b003ab775b7210c0ee16d7" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="4f21d3b86badd88b99d19c225292a9bfa55fbaec" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="44c440e2b9a5930f66cc05541f4a5bf99df8f355" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="1ceb13dda11645229053fc4840954333f8910ba4" upstream="master"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
