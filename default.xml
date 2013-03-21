@@ -4,7 +4,7 @@
   <remote fetch="https://github.com/MentorEmbedded/" name="mel"/>
   <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="mel" sync-j="4"/>
+  <default remote="mel" revision="release/2013.03" sync-j="4"/>
 
   <project name="poky.git" path="poky" revision="mentor/atp"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="danny"/>
@@ -14,7 +14,7 @@
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="meatp/master"/>
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/6.0.0"/>
-  <project name="mel-scripts.git" path="scripts" revision="meatp/master"/>
+  <project name="mel-scripts.git" path="scripts"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="danny"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="danny"/>
@@ -29,5 +29,5 @@
   <!-- ATP addon -->
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
   <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="danny"/>
-  <project name="mel-meta-atp.git" path="meta-atp" revision="meatp/master"/>
+  <project name="mel-meta-atp.git" path="meta-atp"/>
 </manifest>
