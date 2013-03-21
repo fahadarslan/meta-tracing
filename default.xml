@@ -14,7 +14,7 @@
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="7a5e19e0c7d5967ef7b003ab775b7210c0ee16d7" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="261a5e98426f512ab77f8f45c8a90babdea7bfe4" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="e075421a12a62f12294bf44e13deeca0594d5549" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="b06f8372bfe4b0fc42084d78e32bcbbb8f504381" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="9ffee9add2d0380f4025e7a678a166f25a7d659e" upstream="master"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
