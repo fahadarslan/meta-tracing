@@ -28,6 +28,5 @@
 
   <!-- ATP addon -->
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="danny"/>
   <project name="mel-meta-atp.git" path="meta-atp"/>
 </manifest>
