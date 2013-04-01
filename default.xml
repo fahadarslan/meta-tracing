@@ -4,34 +4,37 @@
   <remote fetch="https://github.com/MentorEmbedded/" name="mel"/>
   <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="mel" revision="release/6.0.0" sync-j="4"/>
+  <default remote="mel" revision="meibp/2013" sync-j="4"/>
 
   <project name="poky.git" path="poky" revision="mentor/danny"/>
-  <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="mentor/mel6"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="danny"/>
+
   <project name="meta-sourcery.git" path="meta-sourcery" revision="danny"/>
-
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="68f05443333afa527e3b24e4caae6115dfb6b6b6"/>
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="abb8dfa3220007444b69c4cbd4dc6ead0b7ec7f8"/>
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="d0b3f41cabd7cb201a3fce91331eb2370dd4f244"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="c0bb5949ce44381639b9adf6980ee88fa6c41737"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5d8a05811101f7d69994f4028ec620c4480f6da4"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="80cc70e50107bbc52001ad51a9f2b5a15935ce17"/>
-
-  <project name="mel-meta-atp.git" path="meta-atp" revision="meibp/2013"/>
-  <project name="mel-scripts.git" path="scripts" revision="meibp/2013"/>
-  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm" revision="meibp/2013"/>
+  <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="mentor/mel6"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="release/2013.03"/>
+  <project name="mel-manufacturing.git" path="manufacturing" revision="release/6.0.0"/>
+  <project name="mel-scripts.git" path="scripts" revision="meibp/2013"/>
 
-  <project name="mel-manufacturing.git" path="manufacturing"/>
-  <project name="mel-rb-ivi.git" path="rb-ivi"/>
-  <project name="mel-ivi-adit.git" path="ivi-adit"/>
-  <project name="mel-ivi-genivi.git" path="ivi-genivi"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="danny"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="danny"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="danny"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="danny"/>
 
-  <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
-  <project name="mel-intel-crossville.git" path="intel-crossville"/>
-  <project name="mel-mips32-74k.git" path="mips32-74k"/>
-  <project name="mel-pandaboard.git" path="pandaboard"/>
-  <project name="mel-ti-am-dm37x-evm.git" path="ti-am-dm37x-evm"/>
+  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm" revision="meibp/2013"/>
+  <project name="mel-broadcom-xlp.git" path="broadcom-xlp" revision="release/6.0.0"/>
+  <project name="mel-intel-crossville.git" path="intel-crossville" revision="release/6.0.0"/>
+
+  <!-- ATP addon -->
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
+  <project name="mel-meta-atp.git" path="meta-atp" revision="meibp/2013"/>
+
+  <!-- PC-Sim addon -->
   <project name="mel-x86-pcsim.git" path="mel-x86-pcsim" revision="master"/>
+
+  <!-- MEIBP 2012 Reference -->
+  <project name="mel-rb-ivi.git" path="rb-ivi" revision="release/6.0.0"/>
+  <project name="mel-ivi-adit.git" path="ivi-adit" revision="release/6.0.0"/>
+  <project name="mel-ivi-genivi.git" path="ivi-genivi" revision="release/6.0.0"/>
+
 </manifest>
