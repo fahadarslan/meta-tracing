@@ -21,7 +21,7 @@
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="danny"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="danny"/>
 
-  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm" revision="release/2013.03"/>
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="release/2013.03"/>
   <project name="meta-marzen.git" path="meta-marzen" revision="master"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp" revision="release/6.0.0"/>
   <project name="mel-intel-crossville.git" path="intel-crossville"/>
