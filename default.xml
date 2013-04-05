@@ -17,7 +17,7 @@
   <project name="poky.git" path="poky" remote="yocto" revision="9ffee9add2d0380f4025e7a678a166f25a7d659e" upstream="master"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="meta-mentor-fsl-arm.git" path="meta-mentor-fsl-arm"/>
+  <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-marzen.git" path="meta-marzen"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
   <project name="mel-intel-crossville.git" path="intel-crossville"/>
