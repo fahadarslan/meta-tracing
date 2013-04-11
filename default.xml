@@ -13,7 +13,7 @@
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="mentor/atp"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="release/2013.03"/>
-  <project name="mel-manufacturing.git" path="manufacturing" revision="release/6.0.0"/>
+  <project name="mel-manufacturing.git" path="manufacturing" revision="release/2013.03"/>
   <project name="mel-scripts.git" path="scripts"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="869452daf4fe085d5013905f6a5a6584a0e3a56e" upstream="danny"/>
