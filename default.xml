@@ -28,6 +28,7 @@
   <!-- ATP addon -->
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
   <project name="mel-meta-atp.git" path="meta-atp" revision="meibp/2013"/>
+  <project name="meta-fsl-arm-private.git" path="meta-fsl-arm-private" revision="meibp/2013"/>
 
   <!-- PC-Sim addon -->
   <project name="mel-x86-pcsim.git" path="mel-x86-pcsim" revision="master"/>
