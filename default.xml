@@ -33,6 +33,9 @@
   <!-- PC-Sim addon -->
   <project name="mel-x86-pcsim.git" path="mel-x86-pcsim" revision="master"/>
 
+  <!-- QA addon -->
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="meibp/2013"/>
+
   <!-- MEIBP 2012 Reference -->
   <project name="mel-rb-ivi.git" path="rb-ivi" revision="release/6.0.0"/>
   <project name="mel-ivi-adit.git" path="ivi-adit" revision="release/6.0.0"/>
