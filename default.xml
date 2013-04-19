@@ -23,11 +23,12 @@
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="891eddf7a2f2c031becb40282ca7aea8bf2841d4" upstream="danny"/>
 
   <project name="meta-mx6q.git" path="meta-mx6q" revision="release/2013.03"/>
-  <project name="meta-marzen.git" path="meta-marzen" revision="master"/>
+  <project name="meta-marzen.git" path="meta-marzen" revision="release/2013.03"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp" revision="release/6.0.0"/>
   <project name="mel-intel-crossville.git" path="intel-crossville"/>
 
   <!-- ATP addon -->
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="c93d2cb4763eab05f179530e35bb08e38d54f4b2" upstream="3.0"/>
   <project name="mel-meta-atp.git" path="meta-atp"/>
+  <project name="meta-atp-demo.git" path="meta-atp-demo" revision="release/2013.03"/>
 </manifest>
