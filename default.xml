@@ -16,6 +16,7 @@
   <project name="mel-docs.git" path="docs"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
@@ -26,9 +27,13 @@
   <project name="meta-marzen.git" path="meta-marzen"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
   <project name="mel-intel-crossville.git" path="intel-crossville"/>
+  <project name="mel-x86-pcsim.git" path="mel-x86-pcsim"/>
 
-  <!-- ATP addon -->
+  <!-- ATP -->
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
   <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
+
+  <!-- Linux Containers -->
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto"/>
 </manifest>
