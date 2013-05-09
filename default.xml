@@ -16,6 +16,7 @@
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="e075421a12a62f12294bf44e13deeca0594d5549" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="9ffee9add2d0380f4025e7a678a166f25a7d659e" upstream="master"/>
 
+  <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-marzen.git" path="meta-marzen"/>
@@ -24,4 +25,5 @@
   <project name="mel-mips32-74k.git" path="mips32-74k"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
+  <project name="mel-docs.git" path="docs"/>
 </manifest>
