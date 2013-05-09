@@ -6,11 +6,12 @@
 
   <default remote="mel" revision="master" sync-j="4"/>
 
-  <project name="poky.git" path="poky"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github"/>
+  <project name="poky.git" path="poky" revision="dylan"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="dylan"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
+  <!-- <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/> -->
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel-docs.git" path="docs"/>
@@ -18,10 +19,11 @@
   <project name="mel-scripts.git" path="scripts"/>
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="dylan"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="dylan"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="dylan"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto"/>
+  <!-- <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="dylan"/> -->
 
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-marzen.git" path="meta-marzen"/>
@@ -36,4 +38,5 @@
 
   <!-- Linux Containers -->
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto"/>
+  <!-- <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="dylan"/> -->
 </manifest>
