@@ -10,8 +10,7 @@
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="dylan"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
-  <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
-  <!-- <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/> -->
+  <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel-docs.git" path="docs"/>
