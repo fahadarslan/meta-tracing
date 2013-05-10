@@ -6,7 +6,7 @@
 
   <default remote="mel" revision="master" sync-j="4"/>
 
-  <project name="poky.git" path="poky" revision="dylan"/>
+  <project name="poky.git" path="poky" revision="mentor/dylan"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="dylan"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
