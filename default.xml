@@ -19,7 +19,7 @@
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="dylan"/>
-  <project name="Freescale/meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" remote="github"/>
+  <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" revision="dylan"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="dylan"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="dylan"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto"/>
