@@ -32,7 +32,7 @@
   <project name="mel-x86-pcsim.git" path="x86-pcsim"/>
 
   <!-- ATP -->
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="3.0"/>
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="4.0"/>
   <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
