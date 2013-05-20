@@ -37,6 +37,5 @@
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
   <!-- Linux Containers -->
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto"/>
-  <!-- <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="dylan"/> -->
+  <project name="meta-virtualization.git" path="meta-virtualization" revision="dylan"/>
 </manifest>
