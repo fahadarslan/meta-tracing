@@ -9,6 +9,7 @@
   <project name="poky.git" path="poky" revision="mentor/dylan"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="dylan"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="dylan"/>
+  <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/>
