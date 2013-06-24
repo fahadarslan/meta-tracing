@@ -13,6 +13,7 @@
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
   <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/>
+  <project name="meta-tracing.git" path="meta-tracing"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel-docs.git" path="docs"/>
