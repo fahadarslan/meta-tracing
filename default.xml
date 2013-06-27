@@ -6,13 +6,13 @@
 
   <default remote="mel" revision="master" sync-j="4"/>
 
-  <project name="poky.git" path="poky" revision="mentor/dylan"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="dylan"/>
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="dylan"/>
+  <project name="poky.git" path="poky" remote="yocto"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github"/>
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github"/>
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
-  <project name="meta-mentor.git" path="meta-mentor" remote="yocto" revision="dylan"/>
+  <project name="meta-mentor.git" path="meta-mentor" remote="yocto"/>
   <project name="meta-tracing.git" path="meta-tracing"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
@@ -21,11 +21,11 @@
   <project name="mel-scripts.git" path="scripts"/>
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="dylan"/>
-  <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" revision="dylan"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="dylan"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="dylan"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="dylan"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto"/>
+  <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto"/>
 
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-marzen.git" path="meta-marzen"/>
@@ -34,10 +34,10 @@
   <project name="mel-x86-pcsim.git" path="x86-pcsim"/>
 
   <!-- ATP -->
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="4.0"/>
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto"/>
   <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
   <!-- Linux Containers -->
-  <project name="meta-virtualization.git" path="meta-virtualization" revision="dylan"/>
+  <project name="meta-virtualization.git" path="meta-virtualization"/>
 </manifest>
