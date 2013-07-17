@@ -33,7 +33,7 @@
 
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" revision="8823f0d7ecf553fd2246783c6152c868a3998c7f" upstream="master"/>
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="e2f010bec19aef73b4731cb4f66c7412d59b265c" upstream="master"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="417ec03961696ea1bd4bb8f160df23418c910cd5" upstream="master"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="93c57323edc118eb8905980348ad3888664f2382" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="32a8205cebd5dbd65847c63721dc5df70c4d1c35" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="1b7b176ef84eaacda711dd236b256d9ce8f80fbf" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="75291e7614115dc89045fcf6650bbdead071da03" upstream="master"/>
