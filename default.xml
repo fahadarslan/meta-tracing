@@ -7,7 +7,7 @@
   <default remote="mel" revision="master" sync-j="4"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
-  <project name="MentorEmbedded/meta-mentor.git" path="meta-mentor" remote="github"/>
+  <project name="meta-mentor.git" path="meta-mentor"/>
   <project name="meta-tracing.git" path="meta-tracing"/>
 
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
