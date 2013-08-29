@@ -31,7 +31,7 @@
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
   <!-- Linux Containers -->
-  <project name="meta-virtualization.git" path="meta-virtualization"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="1c04c0d002db838f45e40d6b5cdeabd565348a21" upstream="master"/>
 
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" revision="8823f0d7ecf553fd2246783c6152c868a3998c7f" upstream="master"/>
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="f2805add77f9e9d5f7a114ee99a632172d8f3ff6" upstream="master"/>
