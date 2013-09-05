@@ -31,7 +31,7 @@
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" revision="8823f0d7ecf553fd2246783c6152c868a3998c7f" upstream="master"/>
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="13c91f33e30ab1c0d2a20e414753008bbdabca95" upstream="master"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="c3c1d2616e59ba314c6ff602b99909da632a11d5" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="58a57096e4b7e2ceca3c33d3e7100c5434966cd9" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="164067980e18e8ba60b317677ced2d75c3725dbe" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="16134c48d0251a8ce2cf6fcefe23625ecefe06fe" upstream="master"/>
