@@ -30,6 +30,9 @@
   <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
+  <!-- ADIT custom layers -->
+  <project name="adit-custom.git" path="adit-custom"/>
+
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" revision="8823f0d7ecf553fd2246783c6152c868a3998c7f" upstream="master"/>
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="fdf3fe6296790b0c0817a58c064d7da1cca7dd0a" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="1ddf5e66c635e086864ce15931628ce1a2d6ff0a" upstream="master"/>
