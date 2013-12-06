@@ -30,6 +30,9 @@
   <project name="mel-meta-atp.git" path="meta-atp"/>
   <project name="meta-atp-demo.git" path="meta-atp-demo"/>
 
+  <!-- Mentor custom Qt5 layer for MEL and ATP -->
+  <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
+
   <!-- ADIT custom layers -->
   <project name="adit-custom.git" path="adit-custom"/>
 
