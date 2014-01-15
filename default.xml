@@ -44,7 +44,7 @@
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="6a4f0dd875a5ec0303ab4387944dc7eb98508769" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="775d77e482f1ea203c78003cccd2547075fd720f" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="85c35541100affcdc47bb72619a59ce1c0d0ef85" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="8df6927829abec6fabad9794034cdc3ed8197af4" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="7f3332a96b82c711c55840e1594c636d3bc33fbf" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="07453a3a916686668c03e3e7727b9cfd54bdb621" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="f33c990db392c6b208efecea0f941449c4d25cec" upstream="master"/>
 </manifest>
