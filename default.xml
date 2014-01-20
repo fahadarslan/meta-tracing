@@ -37,14 +37,14 @@
   <project name="adit-custom.git" path="adit-custom"/>
 
   <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" revision="2d25d142e45d0faa8912eba2a81161b9be0cad48" upstream="master"/>
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="82907f64b32924854b63a342d9932d66f2dafe07" upstream="master"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="035687a8e3a9a9d1576b33142f3c5817ef1161c0" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="2be655a691b3a5f698113ed77d3fac6b16ea5337" upstream="master"/>
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="7ac3e4ef66d35c92a08b87f8b3098d0b9e034c4f" upstream="master"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="7629b77c63ad9e1ef0c928451626eaac4173d054" upstream="master"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="1536064e02f15761e90f784d88f2a930784f7f3d" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="d8c1d14f9e0a87a0b4357b8764a0df40cc22f789" upstream="master"/>
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="91b3de5c3a42d9aba972f7a127e084645a1dc504" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="6a4f0dd875a5ec0303ab4387944dc7eb98508769" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="775d77e482f1ea203c78003cccd2547075fd720f" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="85c35541100affcdc47bb72619a59ce1c0d0ef85" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="7f3332a96b82c711c55840e1594c636d3bc33fbf" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="07453a3a916686668c03e3e7727b9cfd54bdb621" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="f33c990db392c6b208efecea0f941449c4d25cec" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="21d21908c8ded4a94da5ce8950cd83e9b22b7096" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="ab8011839174030fc81bbf91bec861d0a9f95c42" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="cc262e0a4fe5bb4477f9db16e6cf94504b1a71d5" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="b908caca1af1d4150eafd3d3001ea19599657270" upstream="master"/>
 </manifest>
