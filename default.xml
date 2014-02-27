@@ -44,7 +44,7 @@
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="290a669e5480792836d4f7769ba2ef6f49799323" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="d7026654ae4d18e7d7c193f64e4a4ce22453cfa5" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="2d2fcbd1b7fa97c8531722f002e23b70413a5b7d" upstream="master"/>
-  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="b009efb31431563ac7911ccd4f0d4e9fef4e5e05" upstream="master"/>
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="32e4d6f17917027c3babe1ab738480de9691024d" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="e55d3ef36a98574e7d4535bb03b56c9a05e6578a" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="fcecf575282a4926179f9131521b369751aae394" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="20accf6d7cf8330f26be3718c96edf6dae14b4f0" upstream="master"/>
