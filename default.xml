@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="https://github.com/MentorEmbedded/" name="mel"/>
+  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
   <remote fetch="git://github.com/" name="github"/>
 
   <default remote="mel" revision="master" sync-j="4"/>
