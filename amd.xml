@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <include name="default.xml"/> <!-- Stock MEL configuration -->
+  <project name="meta-amd-private.git" path="meta-amd-private" revision="master"/>
+</manifest>
