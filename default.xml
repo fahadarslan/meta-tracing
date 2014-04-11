@@ -23,6 +23,9 @@
 
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-marzen.git" path="meta-marzen"/>
+  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
+  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk"/>
   <project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
   <project name="mel-broadcom-xlp.git" path="broadcom-xlp"/>
