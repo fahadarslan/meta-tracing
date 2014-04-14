@@ -48,10 +48,10 @@
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="c4fa1b431f4efc4982a168119db95236cfa8cad3" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="db84acfc8d9ed8dccd4a79de39fee337bc729662" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="c5d90594097c92b0cd9c59c6265a017260915feb" upstream="master"/>
-  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="743fa66aa0cc2265a9c1f293c305828d90b4fbbd" upstream="master"/>
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="7bdcd1140b729598bae6246a4bbc21c3950aadd8" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="1fa7f364f682e5cfaa9d6e565b7ae6b8ec2a90ff" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="3e4580f365bd49835b9d46cb1868ce6d997b02e1" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="cffa34a876152d784d9f0e48f2bfd787e158da36" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="7544bfb6ec7efd283e7e7ff712e91452fdffb534" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="477ccd867cc71f8277f2670b7be34b3b15300052" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="fd435cbfc5de2da5fb75e1df4e020ef4a4f87af4" upstream="daisy"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="0ba2239abb4917a1c090a7802211f2695c711a58" upstream="daisy"/>
 </manifest>
