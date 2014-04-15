@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Track the upstream MEL release -->
+  <include name="default.xml"/>
+
+  <!-- Add the AMD specific repositories -->
+  <project name="meta-amd.git" path="meta-amd" revision="master"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" revision="master"/>
+</manifest>
