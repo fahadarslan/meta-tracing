@@ -20,7 +20,6 @@
   <remove-project name="mel-meta-atp.git"/>
   <remove-project name="meta-atp-demo.git"/>
   <remove-project name="meta-qt5-mel.git"/>
-  <remove-project name="adit-custom.git"/>
   <remove-project name="meta-fsl-arm.git"/>
   <remove-project name="meta-fsl-ppc.git"/>
   <remove-project name="meta-intel.git"/>
