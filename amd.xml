@@ -4,7 +4,6 @@
   <include name="default.xml"/>
 
   <!-- Add the AMD specific repositories -->
-  <project name="meta-amd.git" path="meta-amd" revision="master"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master"/>
 
   <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
