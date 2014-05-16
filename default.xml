@@ -45,4 +45,7 @@
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="abf028895344a0e485fa194e5cac8bd7006c670b" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="ee6f88f28566acaada77a74ce02f66fee0219ab4" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="5306aaab07a7a9b3b0c7e8008dabbd2e89daec28" upstream="daisy"/>
+
+  <!-- FSL PowerPC specific -->
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
 </manifest>
