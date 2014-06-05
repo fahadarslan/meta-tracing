@@ -3,6 +3,10 @@
   <!-- Track the upstream MEL release -->
   <include name="default.xml"/>
 
+  <!-- Add the QA private repository.  This is not AMD specific but we are -->
+  <!-- one of the projects that use it. -->
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="master"/>
+
   <!-- Add the AMD specific repositories -->
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master"/>
 </manifest>
