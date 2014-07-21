@@ -17,7 +17,6 @@
   <project name="mel-docs.git" path="docs"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
-  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
   <project name="meta-amd.git" path="meta-amd"/>
   <project name="meta-mx6q.git" path="meta-mx6q"/>
