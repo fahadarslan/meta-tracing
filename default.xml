@@ -35,7 +35,7 @@
   <!-- Mentor custom Qt5 layer for MEL and ATP -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="032048c99e013b51ef141e0454c8fd9da12a3987" upstream="master-next"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="be522cb8979c3aaab6ceec6a9dca359e834bb2ea" upstream="master-next"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="478f29c3e97760f2ff443227950ce21d9510a280" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="200ebb54f46f364e7eb1738c5e993374f03f407d" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="4d9869c983f3d56c60e08e4c3d90710a567f2345" upstream="master"/>
