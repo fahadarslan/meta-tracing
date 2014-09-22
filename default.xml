@@ -42,9 +42,9 @@
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="238a45e9da8bbfff7a6af220b48c11cabd31e01c" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="12dac2ea1306f2ab86f8cd7b79d3d438cc6d9115" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="9c2ae7b791a08ad95f31413dcce594a7ca1c9601" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="f5d690a773052c3406936d7e0f2e6af6b24c77c2" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="0bf1cabe6bfffc962f1214064c086a63ee81af05" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="28e26a9b0ad37d0c92ba42b2727215eef1edf5a2" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="7d80f8e9468253496a7097685aac8f468940a9c5" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="afdbe3112b940987f3f3cddcb32c91a5e17a297d" upstream="master"/>
 
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
