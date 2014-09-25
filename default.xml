@@ -51,4 +51,8 @@
 
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
+
+  <!-- SELinux Security addon -->
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="aa85e81d9499787f40d0e09e3f16b0000483f546" upstream="master"/>
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
 </manifest>
