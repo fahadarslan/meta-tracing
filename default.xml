@@ -37,7 +37,7 @@
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="2680f54d02fa6efe4cd2aaef7bda9e46cf3e9672" upstream="master-next"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="4b7879d58ed6f60f80e26d036694ab3601ecf817" upstream="master-next"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="8e5fe6c0f5cf710e1a46c5f203e52f069874768a" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="4b5c3c6f3cff091bd0408554e9dac371375ead91" upstream="master"/>
