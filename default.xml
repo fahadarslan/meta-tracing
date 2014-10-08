@@ -37,16 +37,16 @@
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="2680f54d02fa6efe4cd2aaef7bda9e46cf3e9672" upstream="master-next"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="4b7879d58ed6f60f80e26d036694ab3601ecf817" upstream="master-next"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="b25eb7e4dfee7802d4eae657fa5e482a1a010190" upstream="master"/>
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="4b5c3c6f3cff091bd0408554e9dac371375ead91" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="8e5fe6c0f5cf710e1a46c5f203e52f069874768a" upstream="master"/>
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="afaf2c70b72ddd1777e1c91571308310f617d06e" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="12dac2ea1306f2ab86f8cd7b79d3d438cc6d9115" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="93264b1627eb45d5b89c1cc99a534dc7775bcdef" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="65202ced07fdbfbf5d08f4c27aa7227d8f6c6643" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="0d01e1b72333f49c29d1a27ad844c4cd9f90341c" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="39ca8b429b6244e9649e7303cbb240adf007bf22" upstream="master"/>
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="478fe949a957471a4d20450f6e9375fe1d628591" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="02d7db614f16d418e6f6a0670c79962193eae911" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="b0745517d1d8f4b6b51bc1256344cf1db7001a53" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="17ff23b4a4a0e5ed7efde107fb00296f1ebd5fdd" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="505a6b696ae990442de720e5e1135a3e44d5f75c" upstream="dizzy"/>
 
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
