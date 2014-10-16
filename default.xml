@@ -26,6 +26,7 @@
   <project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
   <project name="mel-x86-pcsim.git" path="x86-pcsim"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" revision="imx-3.10.31_1.1.0-beta"/>
 
   <!-- ATP -->
   <project name="mel-meta-atp.git" path="meta-atp"/>
@@ -37,7 +38,6 @@
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
 
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="1c1d7045696abd02aaf58e311ffae467b34bc4c1" upstream="master-next"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master"/>
   <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="afaf2c70b72ddd1777e1c91571308310f617d06e" upstream="master"/>
