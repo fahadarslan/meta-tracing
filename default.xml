@@ -25,14 +25,9 @@
   <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk"/>
   <project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
-  <project name="mel-x86-pcsim.git" path="x86-pcsim"/>
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" revision="imx-3.10.31_1.1.0-beta"/>
 
-  <!-- ATP -->
-  <project name="mel-meta-atp.git" path="meta-atp"/>
-  <project name="meta-atp-demo.git" path="meta-atp-demo"/>
-
-  <!-- Mentor custom Qt5 layer for MEL and ATP -->
+  <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
 
   <!-- Industrial addon -->
@@ -40,7 +35,6 @@
 
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master"/>
-  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="afaf2c70b72ddd1777e1c91571308310f617d06e" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="478fe949a957471a4d20450f6e9375fe1d628591" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="129783a9cba7902feb7f35d390b37d96b733a201" upstream="master"/>
