@@ -4,7 +4,8 @@
   <include name="default.xml"/>
 
   <!-- Add the AMD specific repositories -->
-  <project name="meta-amd-private.git" path="meta-amd-private" revision="master"/>
+  <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab"/>
 
   <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
   <remove-project name="meta-mx6q.git"/>
