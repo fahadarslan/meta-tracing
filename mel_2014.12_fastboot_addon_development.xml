@@ -30,7 +30,4 @@
   unpin repos/layers from the baseline for development and/or testing
   of the release of the MEL 2014.12 Fastboot add-on for the i.MX6 
   -->
-
-  <!-- Add the i.MX6 Fastboot add-on for MEL 2014.12 release specific repositories -->
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
 </manifest>

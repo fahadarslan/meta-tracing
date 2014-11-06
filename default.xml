@@ -48,4 +48,7 @@
   <!-- SELinux Security addon -->
   <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="aa85e81d9499787f40d0e09e3f16b0000483f546" upstream="master"/>
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
+
+  <!-- i.MX6 Fastboot addon -->
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
 </manifest>
