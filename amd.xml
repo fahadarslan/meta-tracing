@@ -10,15 +10,10 @@
   <remove-project name="meta-mentor-glsdk.git"/>
   <remove-project name="meta-omap5-evm.git"/>
   <remove-project name="meta-dra7xx-evm.git"/>
-  <remove-project name="mel-x86-pcsim.git"/>
-  <remove-project name="meta-ro-rootfs.git"/>
-  <remove-project name="mel-meta-atp.git"/>
-  <remove-project name="meta-atp-demo.git"/>
   <remove-project name="meta-qt5-mel.git"/>
   <remove-project name="meta-fsl-arm.git"/>
   <remove-project name="meta-fsl-ppc.git"/>
   <remove-project name="meta-intel.git"/>
-  <remove-project name="meta-ivi.git"/>
   <remove-project name="meta-minnow.git"/>
   <remove-project name="meta-qt5/meta-qt5.git"/>
   <remove-project name="meta-ti.git"/>
