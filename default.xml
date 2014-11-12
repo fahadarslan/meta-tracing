@@ -46,7 +46,7 @@
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
 
   <!-- SELinux Security addon -->
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="aa85e81d9499787f40d0e09e3f16b0000483f546" upstream="master"/>
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy"/>
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
 
   <!-- i.MX6 Fastboot addon -->
