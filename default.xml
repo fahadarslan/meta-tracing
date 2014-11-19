@@ -4,7 +4,7 @@
   <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
   <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="mel" revision="release/2014.12" sync-j="4"/>
+  <default remote="mel" revision="master" sync-j="4"/>
 
   <project name="meta-sourcery.git" path="meta-sourcery"/>
   <project name="meta-mentor.git" path="meta-mentor"/>
@@ -40,13 +40,13 @@
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="129783a9cba7902feb7f35d390b37d96b733a201" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="b0745517d1d8f4b6b51bc1256344cf1db7001a53" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="a4bdcbdbca05bbb4a452e06982038f0a38bcb91f" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="ad065f94acb0bfb81e33935890a1db251d6e2979" upstream="dizzy"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="ad065f94acb0bfb81e33935890a1db251d6e2979" upstream="master"/>
 
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
 
   <!-- SELinux Security addon -->
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy"/>
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="master"/>
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
 
   <!-- i.MX6 Fastboot addon -->
