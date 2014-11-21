@@ -18,7 +18,7 @@
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
 
-  <project name="meta-amd.git" path="meta-amd" revision="master"/>
+  <project name="meta-amd.git" path="meta-amd"/>
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
   <project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
