@@ -24,9 +24,7 @@
 
   <!-- Mentor repositories -->
   <project name="meta-amd.git" path="meta-amd"/>
-  <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="master"/>
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="master"/>
 
   <!-- Non Mentor repo -->
-  <project name="Xilinx/meta-xilinx.git" path="meta-xilinx" remote="github" revision="350e7c311c8d661be3d62860088de2845fb4e307" upstream="master"/>
 </manifest>
