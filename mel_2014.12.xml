@@ -10,15 +10,11 @@
   <project name="meta-mentor.git" path="meta-mentor"/>
   <project name="meta-tracing.git" path="meta-tracing"/>
 
-  <!-- Updates for post-release -->
-  <project name="mel-updates.git" path="updates"/>
-
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel-docs.git" path="docs"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
 
-  <project name="meta-amd.git" path="meta-amd"/>
   <project name="meta-mx6q.git" path="meta-mx6q"/>
   <project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
   <project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
