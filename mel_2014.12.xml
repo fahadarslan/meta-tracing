@@ -6,10 +6,12 @@
 
   <default remote="mel" revision="release/2014.12" sync-j="4"/>
 
+  <!-- Mentor public repositories -->
   <project name="meta-sourcery.git" path="meta-sourcery"/>
   <project name="meta-mentor.git" path="meta-mentor"/>
   <project name="meta-tracing.git" path="meta-tracing"/>
 
+  <!-- Mentor private repositories -->
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
   <project name="mel-docs.git" path="docs"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
@@ -25,9 +27,20 @@
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
 
+  <!-- FSL PowerPC specific -->
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
+
+  <!-- Security addon, w/ yocto's SELinux repository -->
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy"/>
+
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
 
+  <!-- i.MX6 Fastboot addon -->
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
+
+  <!-- Non-Mentor repositories -->
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="fbe06aa1dd82265f74a62ae410d0df83f2f1947c" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master"/>
@@ -37,14 +50,4 @@
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="b0745517d1d8f4b6b51bc1256344cf1db7001a53" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="a4bdcbdbca05bbb4a452e06982038f0a38bcb91f" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="ad065f94acb0bfb81e33935890a1db251d6e2979" upstream="dizzy"/>
-
-  <!-- FSL PowerPC specific -->
-  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
-
-  <!-- SELinux Security addon -->
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy"/>
-  <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
-
-  <!-- i.MX6 Fastboot addon -->
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
 </manifest>
