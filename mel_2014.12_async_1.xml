@@ -23,7 +23,6 @@
 
 
   <!-- Mentor repositories -->
-  <project name="meta-amd.git" path="meta-amd"/>
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="master"/>
 
   <!-- Non Mentor repo -->

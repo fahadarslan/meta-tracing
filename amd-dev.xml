@@ -8,6 +8,7 @@
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
   <!-- Add the AMD specific repositories -->
+  <project name="meta-amd.git" path="meta-amd"/>
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab"/>
 </manifest>
