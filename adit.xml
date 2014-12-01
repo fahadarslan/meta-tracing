@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Track the upstream MEL release -->
-  <include name="default.xml"/>
+  <include name="mel_2014.12.xml"/>
 
   <!-- Add the ADIT specific repositories -->
   <project name="adit-custom.git" path="adit-custom"/>
