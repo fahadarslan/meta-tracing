@@ -4,7 +4,7 @@
   <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
   <remote fetch="git://github.com/" name="github"/>
 
-  <default remote="mel" revision="release/2014.12" sync-j="4"/>
+  <default remote="mel" revision="master" sync-j="4"/>
 
   <!-- Mentor public repositories -->
   <project name="meta-sourcery.git" path="meta-sourcery"/>
