@@ -33,7 +33,7 @@
 
   <!-- Security addon, w/ yocto's SELinux repository -->
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="master"/>
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto"/>
 
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
