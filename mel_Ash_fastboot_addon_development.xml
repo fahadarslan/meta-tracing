@@ -10,6 +10,8 @@
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
   <include name="mel_2014.12.xml"/>
+  <remove-project name="meta-fastboot.git" path="meta-fastboot"/>
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="master"/>
 
   <!-- For efficiency, drop some un-needed layers from the base release -->
   <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
@@ -23,8 +25,6 @@
   <remove-project name="meta-ti.git" path="meta-ti" remote="yocto"/>
   <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto"/>
   <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
-
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="master"/>
 
   <!--
   After the base MEL 2014.12 release is frozen, this manifest will begin 
