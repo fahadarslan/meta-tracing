@@ -10,11 +10,9 @@
   <remove-project name="meta-mentor-glsdk.git"/>
   <remove-project name="meta-omap5-evm.git"/>
   <remove-project name="meta-dra7xx-evm.git"/>
-  <remove-project name="meta-qt5-mel.git"/>
   <remove-project name="meta-fsl-arm.git"/>
   <remove-project name="meta-fsl-ppc.git"/>
   <remove-project name="meta-intel.git"/>
   <remove-project name="meta-minnow.git"/>
-  <remove-project name="meta-qt5/meta-qt5.git"/>
   <remove-project name="meta-ti.git"/>
 </manifest>
