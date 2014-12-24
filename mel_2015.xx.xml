@@ -24,6 +24,7 @@
   <project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx"/>
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf"/>
 
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
