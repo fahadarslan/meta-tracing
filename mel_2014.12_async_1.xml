@@ -23,7 +23,7 @@
 
 
   <!-- Mentor repositories -->
-  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="master"/>
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
 
   <!-- Non Mentor repo -->
 </manifest>
