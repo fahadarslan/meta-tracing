@@ -43,13 +43,13 @@
   <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
 
   <!-- Non-Mentor repositories -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="f69b21d39feca9a4d71d53980fc5c9917ba6c5ac" upstream="master"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="e42c9752dd08f30aba280116894537d1f555fc73" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="486a72425f2f6e25efd9bfdbb9638fb58e90a85f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="7c94dd034eeb9893ac1452bfe1003e91cf9ff50e" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="8b040e58b263741ea19e1826308e22ab3cae585b" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="091c19a8fbba21a5ca9efab77ed7047721428f25" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="c0423005b36d80bd35bd329b5460b4ac78365fd2" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="b844c09f48ba82ed7884d842de71e06ed74778d8" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="ac17cd3b9296cfa6dc5220497ac0ede72528ad67" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="f2833950bede6982a3cd761b92083d7be9ab33bf" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="6dde745bf90d9f9e52af3779df28879d91cbc64c" upstream="master"/>
 </manifest>
