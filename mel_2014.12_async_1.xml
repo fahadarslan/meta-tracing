@@ -25,5 +25,8 @@
   <!-- Mentor repositories -->
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
 
+  <!-- FSL PowerPC specific -->
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2014.12-async1"/>
+
   <!-- Non Mentor repo -->
 </manifest>
