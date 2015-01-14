@@ -21,13 +21,18 @@
   <remove-project name="meta-omap5-evm.git"/>
   <remove-project name="meta-dra7xx-evm.git"/>
   <remove-project name="mel-meta-fsl-networking.git"/>
-
+  <remove-project name="meta-mentor.git"/>
+  <remove-project name="meta-sourcery.git"/>
 
   <!-- Mentor repositories -->
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
 
+  <!-- Mentor public repositories -->
+  <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1"/>
+
   <!-- FSL PowerPC specific -->
-  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2014.12-async1"/>
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2013.12-async1"/>
 
   <!-- Non Mentor repo -->
 </manifest>
