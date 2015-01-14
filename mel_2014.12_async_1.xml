@@ -20,6 +20,7 @@
   <remove-project name="meta-mx6q.git"/>
   <remove-project name="meta-omap5-evm.git"/>
   <remove-project name="meta-dra7xx-evm.git"/>
+  <remove-project name="mel-meta-fsl-networking.git"/>
 
 
   <!-- Mentor repositories -->
