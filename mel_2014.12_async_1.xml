@@ -32,7 +32,7 @@
   <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1"/>
 
   <!-- FSL PowerPC specific -->
-  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2013.12-async1"/>
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2014.12-async1"/>
 
   <!-- Non Mentor repo -->
 </manifest>
