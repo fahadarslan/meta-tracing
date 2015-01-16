@@ -9,7 +9,7 @@
   -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12.xml"/>
+  <include name="mel_2014.12_frozen.xml"/>
   <remove-project name="meta-fastboot.git" path="meta-fastboot"/>
   <project name="meta-fastboot.git" path="meta-fastboot" revision="master"/>
 
