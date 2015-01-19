@@ -8,7 +8,6 @@
   <include name="mel_2014.12_frozen.xml"/>
 
   <!-- Drop the repositories that are not part of Async 1 -->
-
   <remove-project name="meta-arago-glsdk.git"/>
   <remove-project name="meta-mentor-glsdk.git"/>
   <remove-project name="meta-ti-glsdk.git"/>
@@ -16,20 +15,30 @@
   <remove-project name="meta-intel.git"/>
   <remove-project name="meta-fastboot.git"/>
   <remove-project name="meta-mentor-industrial.git"/>
+  <remove-project name="mel-meta-mentor-security.git"/>
+  <remove-project name="meta-selinux.git"/>
   <remove-project name="meta-minnow.git"/>
   <remove-project name="meta-mx6q.git"/>
   <remove-project name="meta-omap5-evm.git"/>
   <remove-project name="meta-dra7xx-evm.git"/>
   <remove-project name="mel-meta-fsl-networking.git"/>
+
+  <!-- Since we are on an async release cycle, switch the following repos -->
+  <!-- to continue to pull updates -->
   <remove-project name="meta-mentor.git"/>
   <remove-project name="meta-sourcery.git"/>
+  <remove-project name="mel-scripts.git"/>
+  <remove-project name="mel-docs.git"/>
+
+  <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1"/>
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12"/>
+  <project name="mel-docs.git" path="docs" revision="release/2014.12"/>
+
+  <!-- New repositories for this async-->
 
   <!-- Mentor repositories -->
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
-
-  <!-- Mentor public repositories -->
-  <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1"/>
-  <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1"/>
 
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2014.12-async1"/>
