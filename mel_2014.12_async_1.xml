@@ -36,6 +36,7 @@
   <project name="mel-docs.git" path="docs" revision="release/2014.12"/>
 
   <!-- New repositories for this async-->
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="64752fbb49b16cad881a7b4d35fef3f8315a673f" upstream="dizzy"/>
 
   <!-- Mentor repositories -->
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
