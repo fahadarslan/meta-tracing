@@ -1,56 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
-  <remote fetch="git://github.com/" name="github"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="git+ssh://git@gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
 
-  <default remote="mel" revision="release/2014.12" sync-j="4"/>
+  <default remote="mel" revision="release/2014.12" sync-j="4" />
 
   <!-- Mentor public repositories -->
-  <project name="meta-sourcery.git" path="meta-sourcery" revision="e8c5ef7fe7ee867ebee6859a125fb44cf2887035" upstream="release/2014.12"/>
-  <project name="meta-mentor.git" path="meta-mentor" revision="5425c4093979616fc1e8304d756ee1ae9bfd427f" upstream="release/2014.12"/>
-  <project name="meta-tracing.git" path="meta-tracing" revision="ca10fe0244a0b133d38c723c4cf19efca5577ca4" upstream="release/2014.12"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="e8c5ef7fe7ee867ebee6859a125fb44cf2887035" upstream="release/2014.12" />
+  <project name="meta-mentor.git" path="meta-mentor" revision="5425c4093979616fc1e8304d756ee1ae9bfd427f" upstream="release/2014.12" />
+  <project name="meta-tracing.git" path="meta-tracing" revision="ca10fe0244a0b133d38c723c4cf19efca5577ca4" upstream="release/2014.12" />
 
   <!-- Mentor private repositories -->
-  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="ad2f9346680c5a724c6f0384213f1bb113b67785" upstream="release/2014.12"/>
-  <project name="mel-docs.git" path="docs" revision="0340c7fe167665dbcf8e18a90a6b81a90a43d833" upstream="release/2014.12"/>
-  <project name="mel-manufacturing.git" path="manufacturing" revision="c132071face154d2dccb766094cf6d63c7fa5540" upstream="release/2014.12"/>
-  <project name="mel-scripts.git" path="scripts" revision="d134980167a05a750ae1be426db27871c7d61628" upstream="release/2014.12"/>
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="ad2f9346680c5a724c6f0384213f1bb113b67785" upstream="release/2014.12" />
+  <project name="mel-docs.git" path="docs" revision="0340c7fe167665dbcf8e18a90a6b81a90a43d833" upstream="release/2014.12" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="c132071face154d2dccb766094cf6d63c7fa5540" upstream="release/2014.12" />
+  <project name="mel-scripts.git" path="scripts" revision="d134980167a05a750ae1be426db27871c7d61628" upstream="release/2014.12" />
 
-  <project name="meta-mx6q.git" path="meta-mx6q" revision="e66dfc31c485430eba113e4177840e097308bd35" upstream="release/2014.12"/>
-  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12"/>
-  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="040c8ef9030397d4c7b01d7dcdeee699d1b935c3" upstream="release/2014.12"/>
-  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="32c08822dc1833cc8983546ed392bd0d2416efae" upstream="release/2014.12"/>
-  <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12"/>
-  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12"/>
-  <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="12b6038867bbdcf03ed632c21ccd5e4edaa721bc" upstream="release/2014.12"/>
-  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision="1422a2beaff928615e112b0c7c87210755285009" upstream="release/2014.12"/>
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="e66dfc31c485430eba113e4177840e097308bd35" upstream="release/2014.12" />
+  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12" />
+  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="040c8ef9030397d4c7b01d7dcdeee699d1b935c3" upstream="release/2014.12" />
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="32c08822dc1833cc8983546ed392bd0d2416efae" upstream="release/2014.12" />
+  <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
+  <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="12b6038867bbdcf03ed632c21ccd5e4edaa721bc" upstream="release/2014.12" />
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision="1422a2beaff928615e112b0c7c87210755285009" upstream="release/2014.12" />
 
   <!-- QT5 support -->
-  <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="b1e67f099488cd03f0ddb3f66bbc6e2951729b09" upstream="release/2014.12"/>
+  <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="b1e67f099488cd03f0ddb3f66bbc6e2951729b09" upstream="release/2014.12" />
 
   <!-- FSL PowerPC specific -->
-  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="62d7e6ac67ec51995951eb2c74238c22f43fe0f7" upstream="release/2014.12"/>
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="62d7e6ac67ec51995951eb2c74238c22f43fe0f7" upstream="release/2014.12" />
 
   <!-- Security addon, w/ yocto's SELinux repository -->
-  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12"/>
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy"/>
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
 
   <!-- Industrial addon -->
-  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12"/>
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
 
   <!-- i.MX6 Fastboot addon -->
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="facd38b5fef6bb2877c61ce311b63e550253087b" upstream="release/2014.12_fastboot_addon"/>
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="facd38b5fef6bb2877c61ce311b63e550253087b" upstream="release/2014.12_fastboot_addon" />
 
   <!-- Non-Mentor repositories -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="fbe06aa1dd82265f74a62ae410d0df83f2f1947c" upstream="master"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master"/>
-  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="478fe949a957471a4d20450f6e9375fe1d628591" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="129783a9cba7902feb7f35d390b37d96b733a201" upstream="master"/>
-  <project name="Xilinx/meta-xilinx.git" path="meta-xilinx" remote="github" revision="7f759048bb0aeef3c0b3938be81d2bcade7acb7e" upstream="dizzy"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="b0745517d1d8f4b6b51bc1256344cf1db7001a53" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="a4bdcbdbca05bbb4a452e06982038f0a38bcb91f" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="ad065f94acb0bfb81e33935890a1db251d6e2979" upstream="dizzy"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="fbe06aa1dd82265f74a62ae410d0df83f2f1947c" upstream="master" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="deb326df1489d4844f911605a2627f95c89b167f" upstream="master" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master" />
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="478fe949a957471a4d20450f6e9375fe1d628591" upstream="master" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="129783a9cba7902feb7f35d390b37d96b733a201" upstream="master" />
+  <project name="Xilinx/meta-xilinx.git" path="meta-xilinx" remote="github" revision="7f759048bb0aeef3c0b3938be81d2bcade7acb7e" upstream="dizzy" />
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="b0745517d1d8f4b6b51bc1256344cf1db7001a53" upstream="master" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="a4bdcbdbca05bbb4a452e06982038f0a38bcb91f" upstream="master" />
+  <project name="poky.git" path="poky" remote="yocto" revision="ad065f94acb0bfb81e33935890a1db251d6e2979" upstream="dizzy" />
 </manifest>

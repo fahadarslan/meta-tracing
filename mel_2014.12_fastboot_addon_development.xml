@@ -9,20 +9,20 @@
   -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_frozen.xml"/>
+  <include name="mel_2014.12_frozen.xml" />
 
   <!-- For efficiency, drop some un-needed layers from the base release -->
-  <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
-  <remove-project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
-  <remove-project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk"/>
-  <remove-project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
-  <remove-project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
-  <remove-project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto"/>
-  <remove-project name="meta-intel.git" path="meta-intel" remote="yocto"/>
-  <remove-project name="meta-minnow.git" path="meta-minnow" remote="yocto"/>
-  <remove-project name="meta-ti.git" path="meta-ti" remote="yocto"/>
-  <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto"/>
-  <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking"/>
+  <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />
+  <remove-project name="meta-arago-glsdk.git" path="meta-arago-glsdk" />
+  <remove-project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" />
+  <remove-project name="meta-omap5-evm.git" path="meta-omap5-evm" />
+  <remove-project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" />
+  <remove-project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" />
+  <remove-project name="meta-intel.git" path="meta-intel" remote="yocto" />
+  <remove-project name="meta-minnow.git" path="meta-minnow" remote="yocto" />
+  <remove-project name="meta-ti.git" path="meta-ti" remote="yocto" />
+  <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
+  <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" />
 
   <!--
   After the base MEL 2014.12 release is frozen, this manifest will begin 
