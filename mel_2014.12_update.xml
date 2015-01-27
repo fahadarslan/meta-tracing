@@ -5,10 +5,10 @@
 <!-- pull updates to only the mel-updates and mel-scripts repositories -->
 
 <!-- Derive from the MEL 2014.05 release configuration as a base -->
-<include name="mel_2014.12.xml"/>
+<include name="mel_2014.12.xml" />
 
 <!-- The update builds _must_ not change any layers except updates and scripts -->
-<remove-project name="mel-scripts.git"/>
+<remove-project name="mel-scripts.git" />
 
 <project name="mel-updates.git" path="updates" />
 

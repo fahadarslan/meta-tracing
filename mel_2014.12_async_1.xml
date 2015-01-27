@@ -5,25 +5,25 @@
   <!-- pull updates by replacing/superceding revisions from the base configuration -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12.xml"/>
+  <include name="mel_2014.12.xml" />
 
   <!-- Drop the repositories that are not part of Async 1 -->
 
-  <remove-project name="meta-arago-glsdk.git"/>
-  <remove-project name="meta-mentor-glsdk.git"/>
-  <remove-project name="meta-ti-glsdk.git"/>
-  <remove-project name="meta-fsl-arm.git"/>
-  <remove-project name="meta-intel.git"/>
-  <remove-project name="meta-fastboot.git"/>
-  <remove-project name="meta-mentor-industrial.git"/>
-  <remove-project name="meta-minnow.git"/>
-  <remove-project name="meta-mx6q.git"/>
-  <remove-project name="meta-omap5-evm.git"/>
-  <remove-project name="meta-dra7xx-evm.git"/>
+  <remove-project name="meta-arago-glsdk.git" />
+  <remove-project name="meta-mentor-glsdk.git" />
+  <remove-project name="meta-ti-glsdk.git" />
+  <remove-project name="meta-fsl-arm.git" />
+  <remove-project name="meta-intel.git" />
+  <remove-project name="meta-fastboot.git" />
+  <remove-project name="meta-mentor-industrial.git" />
+  <remove-project name="meta-minnow.git" />
+  <remove-project name="meta-mx6q.git" />
+  <remove-project name="meta-omap5-evm.git" />
+  <remove-project name="meta-dra7xx-evm.git" />
 
 
   <!-- Mentor repositories -->
-  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1"/>
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="release/2014.12-async1" />
 
   <!-- Non Mentor repo -->
 </manifest>
