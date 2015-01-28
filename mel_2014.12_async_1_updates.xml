@@ -10,7 +10,7 @@
   <!-- The update builds _must_ not change any layers except updates and scripts -->
   <remove-project name="mel-scripts.git" />
 
-  <project name="mel-scripts.git" path="scripts" revision="release/2014.12" />
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
   <project name="mel-updates.git" path="updates" revision="release/2014.12" />
 
 </manifest>
