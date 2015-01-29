@@ -12,7 +12,7 @@
   <remove-project name="mel-manufacturing.git" />
 
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12" />
-  <project name="mel-manufacturing.git" path="updates" revision="release/2014.12" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12" />
   <project name="mel-updates.git" path="updates" revision="release/2014.12" />
 
 </manifest>
