@@ -3,7 +3,7 @@
   <remote fetch="git://git.yoctoproject.org/" name="yocto" />
   <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel" />
   <remote fetch="git://github.com/" name="github" />
-  <remote fetch="git+ssh://git@gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
 
   <default remote="mel" revision="release/2014.12" sync-j="4" />
 
