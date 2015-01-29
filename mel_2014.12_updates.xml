@@ -7,10 +7,12 @@
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
   <include name="mel_2014.12_frozen.xml" />
 
-  <!-- The update builds _must_ not change any layers except updates and scripts -->
+  <!-- The update builds _must_ not change any layers except updates, scripts and manufacturing -->
   <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-manufacturing.git" />
 
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12" />
+  <project name="mel-manufacturing.git" path="updates" revision="release/2014.12" />
   <project name="mel-updates.git" path="updates" revision="release/2014.12" />
 
 </manifest>

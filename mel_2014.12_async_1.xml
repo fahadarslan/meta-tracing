@@ -28,12 +28,14 @@
   <remove-project name="meta-mentor.git" />
   <remove-project name="meta-sourcery.git" />
   <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-manufacturing.git" />
   <remove-project name="mel-docs.git" />
   <remove-project name="meta-mentor-xilinx.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1" />
   <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12" />
   <project name="mel-docs.git" path="docs" revision="release/2014.12" />
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="release/2014.12_async1"/>
 
