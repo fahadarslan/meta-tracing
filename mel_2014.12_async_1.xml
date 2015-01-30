@@ -36,7 +36,7 @@
   <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12" />
-  <project name="mel-docs.git" path="docs" revision="release/2014.12" />
+  <project name="mel-docs.git" path="docs" revision="release/2014.12-async1" />
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="release/2014.12_async1"/>
 
   <!-- New repositories for this async-->
