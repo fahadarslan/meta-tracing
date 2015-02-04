@@ -48,5 +48,7 @@
   <!-- FSL PowerPC specific -->
   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="release/2014.12-async1" />
 
-  <!-- Non Mentor repo -->
+  <!-- Update Layer -->
+  <project name="mel-updates.git" path="updates" revision="release/2014.12" />
+
 </manifest>
