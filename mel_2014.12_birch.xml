@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL 2014.12 async 1 release. -->
+  <!-- As such, it inherits the MEL release configuration/manifest, but will -->
+  <!-- pull updates by replacing/superceding revisions from the base configuration -->
+
+  <!-- Derive from the MEL 2014.12 release configuration as a base -->
+  <include name="mel_2014.12_frozen.xml" />
+
+  <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
+
+  <!-- Update Layer -->
+  <project name="mel-updates.git" path="updates" revision="release/2014.12" />
+
+</manifest>
