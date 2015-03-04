@@ -15,4 +15,10 @@
   <remove-project name="meta-intel.git" />
   <remove-project name="meta-minnow.git" />
   <remove-project name="meta-ti.git" />
+  <remove-project name="meta-mentor-xilinx.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
+  <remove-project name="Xilinx/meta-xilinx.git" />
+  <remove-project name="meta-virtualization.git" />
+  <remove-project name="mel-meta-fsl-networking.git" />
+  <remove-project name="meta-fastboot.git" />
 </manifest>
