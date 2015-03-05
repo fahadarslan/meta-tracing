@@ -31,6 +31,7 @@
   <remove-project name="mel-manufacturing.git" />
   <remove-project name="mel-docs.git" />
   <remove-project name="meta-mentor-xilinx.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1" />
   <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1" />
@@ -38,6 +39,7 @@
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12" />
   <project name="mel-docs.git" path="docs" revision="release/2014.12-async1" />
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="release/2014.12_async1"/>
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision="release/2014.12-async1"/>
 
   <!-- New repositories for this async-->
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="64752fbb49b16cad881a7b4d35fef3f8315a673f" upstream="dizzy" />
