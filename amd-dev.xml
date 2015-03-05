@@ -11,5 +11,4 @@
   <project name="meta-amd.git" path="meta-amd"/>
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
-  <project name="mel-docs.git" path="docs" revision="release/2014.12" />
 </manifest>

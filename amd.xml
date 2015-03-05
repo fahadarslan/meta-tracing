@@ -15,4 +15,8 @@
   <remove-project name="meta-intel.git" />
   <remove-project name="meta-minnow.git" />
   <remove-project name="meta-ti.git" />
+  <remove-project name="mel-docs.git" />
+
+
+  <project name="mel-docs.git" path="docs" revision="release/2014.12" />
 </manifest>
