@@ -4,25 +4,22 @@
   <include name="amd-dev.xml" />
 
   <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
-  <remove-project name="meta-mx6q.git" />
-  <remove-project name="meta-ti-glsdk.git" />
-  <remove-project name="meta-arago-glsdk.git" />
-  <remove-project name="meta-mentor-glsdk.git" />
-  <remove-project name="meta-omap5-evm.git" />
-  <remove-project name="meta-dra7xx-evm.git" />
   <remove-project name="meta-fsl-arm.git" />
   <remove-project name="meta-fsl-ppc.git" />
-  <remove-project name="meta-intel.git" />
-  <remove-project name="meta-minnow.git" />
   <remove-project name="meta-ti.git" />
   <remove-project name="meta-mentor-xilinx.git" />
   <remove-project name="meta-mentor-xilinx-memf.git" />
   <remove-project name="Xilinx/meta-xilinx.git" />
   <remove-project name="meta-virtualization.git" />
   <remove-project name="mel-meta-fsl-networking.git" />
-  <remove-project name="meta-fastboot.git" />
-  <remove-project name="mel-docs.git" />
+  <remove-project name="meta-mentor-amsdk.git" />
 
+  <!-- Add required layers that the async_1 manifest has dropped -->
+  <!-- Security addon, w/ yocto's SELinux repository -->
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
 
-  <project name="mel-docs.git" path="docs" revision="release/2014.12" />
+  <!-- Industrial addon -->
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
+
 </manifest>
