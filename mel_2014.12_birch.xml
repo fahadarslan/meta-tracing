@@ -9,6 +9,9 @@
 
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
 
+  <!-- Erlang support -->
+  <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master" />
+
   <!-- Update Layer -->
   <project name="mel-updates.git" path="updates" revision="release/2014.12" />
 
