@@ -26,6 +26,7 @@
   <!-- Since we are on an async release cycle, switch the following repos -->
   <!-- to continue to pull updates -->
   <remove-project name="meta-mentor.git" />
+  <remove-project name="mel-meta-mentor-private.git" />
   <remove-project name="meta-sourcery.git" />
   <remove-project name="mel-scripts.git" />
   <remove-project name="mel-manufacturing.git" />
@@ -34,6 +35,7 @@
   <remove-project name="meta-mentor-xilinx-memf.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="release/2014.12-async1" />
   <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12" />
