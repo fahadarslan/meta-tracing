@@ -15,4 +15,7 @@
   <!-- Update Layer -->
   <project name="mel-updates.git" path="updates" revision="release/2014.12" />
 
+  <!-- i.mx6 SoloX Layer -->
+  <project name="mel-meta-mx6solox.git" path="meta-mx6solox" revision="release/2014.12-birch" />
+
 </manifest>
