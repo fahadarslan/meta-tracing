@@ -7,6 +7,10 @@
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
   <include name="mel_2014.12_frozen.xml" />
 
+  <remove-project name="meta-qt5-mel.git" />
+
+
+
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
 
   <!-- Erlang support -->
@@ -17,5 +21,8 @@
 
   <!-- i.mx6 SoloX Layer -->
   <project name="mel-meta-mx6solox.git" path="meta-mx6solox" revision="release/2014.12-birch" />
+
+  <!-- QT5 support -->
+  <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="release/2014.12-birch" />
 
 </manifest>
