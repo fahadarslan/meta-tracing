@@ -36,7 +36,7 @@
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
   <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
-  <project name="meta-mx6q.git" path="meta-mx6q" revision="e66dfc31c485430eba113e4177840e097308bd35" upstream="release/2014.12" />
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="f1e087e7314d841339ef77360c7d31eb70df8874" upstream="release/2014.12-birch" />
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
 
