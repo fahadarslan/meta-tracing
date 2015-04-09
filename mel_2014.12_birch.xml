@@ -5,9 +5,11 @@
   <!-- pull updates by replacing/superceding revisions from the base configuration -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_frozen.xml" />
+  <include name="mel_2014.12_async_1.xml" />
 
+  <!-- Remove repositories -->
   <remove-project name="meta-qt5-mel.git" />
+  <remove-project name="meta-fsl-arm.git" />
 
 
 
@@ -16,13 +18,26 @@
   <!-- Erlang support -->
   <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master" />
 
-  <!-- Update Layer -->
-  <project name="mel-updates.git" path="updates" revision="release/2014.12" />
-
   <!-- i.mx6 SoloX Layer -->
   <project name="mel-meta-mx6solox.git" path="meta-mx6solox" revision="release/2014.12-birch" />
 
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="release/2014.12-birch" />
+
+  <!-- Updated meta-fsl-arm layer for birch -->
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="8507a7eb0c4c64783cebe8e953381c95e2d2d92d" upstream="master" />
+
+  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="040c8ef9030397d4c7b01d7dcdeee699d1b935c3" upstream="release/2014.12" />
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="32c08822dc1833cc8983546ed392bd0d2416efae" upstream="release/2014.12" />
+  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master" />
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="facd38b5fef6bb2877c61ce311b63e550253087b" upstream="release/2014.12_fastboot_addon" />
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="e66dfc31c485430eba113e4177840e097308bd35" upstream="release/2014.12" />
+  <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
 
 </manifest>
