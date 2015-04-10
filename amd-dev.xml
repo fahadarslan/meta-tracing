@@ -9,8 +9,8 @@
 
   <!-- Add the AMD specific repositories -->
   <project name="meta-amd.git" path="meta-amd"/>
-  <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
-  <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
+  <remote fetch="ssh://amdyocto@ndasource.amd.com" name="amd-private"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" revision="mentor/master" remote="amd-private"/>
 
   <!-- Update to AMD specific branches for repos which are currently locked down -->
   <!-- Note that any changes on these branches will need to be merged back into -->
