@@ -44,13 +44,13 @@
   <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon" />
 
   <!-- Non-Mentor repositories -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="115aaced72fddc23024f8838f0eeb8ad5e37d048" upstream="master"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="ca332324a9bde3e9cbc5e37e18677110cfc38f22" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="4c8cd553f9de56379e2b6502ceb996521e2d6a20" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="53eea4f12311b4808b3af9695ac822eea1fc60c2" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="87235825459d376bf4537c9523eb2496e15893aa" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="b81014dbb5cc39fdfa66af87d18b72eb9eb3c701" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="40dcc06946b0ef46286ae8982565cfa72c972d07" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="df6c7b1279790d27ebfd58fbdfbac89bde5782ec" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="fe9c5b1ba9f95e2321093eea1211bf5655eb6966" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="d616b0ac65e4cffad2f9ca939db670a2a6a641f1" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="960aff31ba2b02972b93f0a0ec45a2fba2987f48" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="f640eca1cc7919e3f42c9c5790de1d11e982b5f7" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="84e8b1ba296c92ec00cfc5b5077ee253c4ed65ab" upstream="master"/>
 </manifest>
