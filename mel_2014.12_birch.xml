@@ -40,4 +40,6 @@
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
 
+  <project name="meta-mentor-industrial-softing.git" path="meta-mentor-industrial-softing" revision="release/2014.12" />
+
 </manifest>
