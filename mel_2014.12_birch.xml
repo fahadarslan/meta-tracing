@@ -11,7 +11,7 @@
   <remove-project name="meta-qt5-mel.git" />
   <remove-project name="meta-fsl-arm.git" />
   <remove-project name="meta-mentor.git" />
-
+  <remove-project name="mel-scripts.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
@@ -42,5 +42,6 @@
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
 
   <project name="meta-mentor-industrial-softing.git" path="meta-mentor-industrial-softing" revision="release/2014.12" />
+  <project name="mel-scripts.git" path="scripts" upstream= "release/2014.12-async1" />
 
 </manifest>
