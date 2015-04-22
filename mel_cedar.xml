@@ -44,7 +44,7 @@
   <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon" />
 
   <!-- Non-Mentor repositories -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="ca332324a9bde3e9cbc5e37e18677110cfc38f22" upstream="master"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b6959258e8963ebc9789aaf20e6927e5f3f46f68" upstream="master"/>
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="4c8cd553f9de56379e2b6502ceb996521e2d6a20" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="53eea4f12311b4808b3af9695ac822eea1fc60c2" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
