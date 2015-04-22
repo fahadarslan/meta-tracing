@@ -42,6 +42,6 @@
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
 
   <project name="meta-mentor-industrial-softing.git" path="meta-mentor-industrial-softing" revision="release/2014.12" />
-  <project name="mel-scripts.git" path="scripts" upstream= "release/2014.12-async1" />
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" upstream= "release/2014.12-async1" />
 
 </manifest>
