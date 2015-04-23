@@ -15,6 +15,8 @@
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
+  <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf" revision="release/2014.12-birch" />
+  <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="release/2014.12-birch" />
 
   <!-- Erlang support -->
   <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master" />
