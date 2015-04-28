@@ -44,13 +44,17 @@
   <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon" />
 
   <!-- Non-Mentor repositories -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="e3cc9452aaa2895bbc8bdd7c8940b4dd2d14213e" upstream="master"/>
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="4c8cd553f9de56379e2b6502ceb996521e2d6a20" upstream="master"/>
+  <!-- meta-fsl-arm is locked down to b695925 for the cedar release at this
+       time, due to our dependence upon imx_3.10.53_1.1.0_ga. -->
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b6959258e8963ebc9789aaf20e6927e5f3f46f68" upstream="b6959258e8963ebc9789aaf20e6927e5f3f46f68"/>
+
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="bf49a8acbbedbac89b0a39381447a5cb4b3a3450" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="4739f47e9358ec8cb82a72f3e185003c5ce40b2c" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="48ebff679e5dc084d395b861a1fc4cb21790d51b" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="4390f867bf883b93cf36cedbb7ef6b11e079c1e4" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="9e82bad750f073b1b941a00ecd2a6eb37c615ceb" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="f23b69928351afa165ad7c25b8cc88c2a661a09e" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="6f3ed4ec77791d28da8206fb43238c396a22c12c" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="781165b071babb888f46a4e1d15880df924c65f6" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="2080f15e86d3d8e1e1f65e16b014545fe538114c" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="559a6f1d4860d734fc9f86aa9d5a0b5ef5ccfff5" upstream="master"/>
 </manifest>
+
