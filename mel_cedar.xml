@@ -55,6 +55,6 @@
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="9e82bad750f073b1b941a00ecd2a6eb37c615ceb" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="f23b69928351afa165ad7c25b8cc88c2a661a09e" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="2080f15e86d3d8e1e1f65e16b014545fe538114c" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="559a6f1d4860d734fc9f86aa9d5a0b5ef5ccfff5" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="515a8b790e08a48aaf64a6b7237e2b39390e35f6" upstream="master"/>
 </manifest>
 
