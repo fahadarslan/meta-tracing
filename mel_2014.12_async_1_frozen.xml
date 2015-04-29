@@ -38,7 +38,7 @@
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision= "e5a7c7e640f6861869721b216c0675ba5cf1c88e" upstream= "release/2014.12-async1" />
   <project name="meta-sourcery.git" path="meta-sourcery" revision= "400770848debc5bb0e184de81f2424492621f33c" upstream= "release/2014.12-async1" />
   <!-- Async1 is released with mel-script hash ea05535f698c37a5b87b2b57d4bcb82e98325845 the foolowing hash contains mel lite fixes ea05535f698c37a5b87b2b57d4bcb82e98325845for amd -->
-  <project name="mel-scripts.git" path="scripts" revision= "68da3ec125a8469d2cc9fc11ad4c5b4fd5be47c3" upstream= "release/2014.12-async1" />
+  <project name="mel-scripts.git" path="scripts" revision= "2c7a6a23b2f55557e776bc0fe00598758f6e2ece" upstream= "release/2014.12-async1" />
   <project name="mel-manufacturing.git" path="manufacturing" revision= "37a9f52ed64183696c8701192a33cc7190c5e9dc" upstream= "release/2014.12" />
   <project name="mel-docs.git" path="docs" revision= "371970942670be66e98011b0f448069e66ea831b" upstream= "release/2014.12-async1" />
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="7c21c80cf97de3e897b6f885733bd751871b7096" upstream= "release/2014.12_async1"/>
