@@ -45,7 +45,8 @@
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="ae785080019cf6ecfedca984dd0dadc3479611c6" upstream="release/2014.12" />
 
-  <project name="meta-mentor-industrial-softing.git" path="meta-mentor-industrial-softing" revision="release/2014.12" />
+  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
+  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="release/2014.12" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" upstream= "release/2014.12-async1" />
 
 </manifest>
