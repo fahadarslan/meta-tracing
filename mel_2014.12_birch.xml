@@ -12,9 +12,13 @@
   <remove-project name="meta-fsl-arm.git" />
   <remove-project name="meta-mentor.git" />
   <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-meta-mentor-private.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
+  <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf" revision="release/2014.12-birch" />
+  <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="release/2014.12-birch" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="36c76389caefb652d8afba717b4f9d9e6444135d" upstream="release/2014.12-async1" />
 
   <!-- Erlang support -->
   <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master" />
@@ -39,9 +43,10 @@
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
   <project name="meta-mx6q.git" path="meta-mx6q" revision="f1e087e7314d841339ef77360c7d31eb70df8874" upstream="release/2014.12-birch" />
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
-  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="db458fd711422407a85aa2763749e272fe80814b" upstream="release/2014.12" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="ae785080019cf6ecfedca984dd0dadc3479611c6" upstream="release/2014.12" />
 
-  <project name="meta-mentor-industrial-softing.git" path="meta-mentor-industrial-softing" revision="release/2014.12" />
+  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
+  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="release/2014.12" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" upstream= "release/2014.12-async1" />
 
 </manifest>
