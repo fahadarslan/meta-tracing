@@ -13,6 +13,7 @@
   <remove-project name="meta-virtualization.git" />
   <remove-project name="mel-meta-fsl-networking.git" />
   <remove-project name="meta-mentor-amsdk.git" />
+  <remove-project name="mel-scripts.git" />
 
   <!-- Add required layers that the async_1 manifest has dropped -->
   <!-- Security addon, w/ yocto's SELinux repository -->
@@ -21,5 +22,6 @@
 
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
+  <project name="mel-scripts.git" path="scrits" upstream="release/2014.12-async1" />
 
 </manifest>
