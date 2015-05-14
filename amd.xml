@@ -22,6 +22,6 @@
 
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
-  <project name="mel-scripts.git" path="scripts" revision="2c7a6a23b2f55557e776bc0fe00598758f6e2ece" upstream="release/2014.12-async1" />
+  <project name="mel-scripts.git" path="scripts" revision="2d5ed47ce80acecb7a67d2371a2483af8aca7f09" upstream="release/2014.12-async1" />
 
 </manifest>
