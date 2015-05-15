@@ -12,12 +12,22 @@
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
 
+  <!-- Add required layers that the async_1 manifest has dropped -->
+  <!-- Security addon, w/ yocto's SELinux repository -->
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
+
+  <!-- Industrial addon -->
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
+
   <!-- Update to AMD specific branches for repos which are currently locked down -->
   <!-- Note that any changes on these branches will need to be merged back into -->
   <!-- the appropriate branch (likely whatever is used for async2/birch) when -->
   <!-- they are open for checkin and this can then be removed -->
   <remove-project name="mel-manufacturing.git" />
   <remove-project name="mel-docs.git" />
+  <remove-project name="mel-scripts.git" />
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12-amd-mfbeta" />
   <project name="mel-docs.git" path="docs" revision="release/2014.12-amd-mfbeta" />
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
 </manifest>
