@@ -29,5 +29,5 @@
   <remove-project name="mel-scripts.git" />
   <project name="mel-manufacturing.git" path="manufacturing" revision="release/2014.12-amd-mfbeta" />
   <project name="mel-docs.git" path="docs" revision="release/2014.12-amd-mfbeta" />
-  <project name="mel-scripts.git" path="scripts" revision="2d5ed47ce80acecb7a67d2371a2483af8aca7f09" upstream="release/2014.12-async1" />
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" />
 </manifest>
