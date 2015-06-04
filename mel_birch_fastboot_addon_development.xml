@@ -11,7 +11,7 @@
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
   <include name="mel_2014.12_birch.xml" />
   <remove-project name="meta-fastboot.git" path="meta-fastboot" />
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="master" />
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="birch_fastboot_addon" />
 
   <!-- For efficiency, drop some un-needed layers from the base release -->
   <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />
