@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  This manifest defines the development configuration for the Valor team's
+  MEL 2014.12 for Wandboard Quad.  As such, it inherits the MEL 2014.12 release
+  configuration.  It is intended to provide a set of repositories
+  for developers and QA. It contains repositories that will not be in the 
+  final set of repositories used to generate a released product.
+  -->
+
+  <!-- Derive from the MEL 2014.12 release configuration as a base -->
+  <include name="mel_2014.12_frozen.xml" />
+
+  <!-- For efficiency, drop some un-needed layers from the base release -->
+  <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />
+  <remove-project name="meta-arago-glsdk.git" path="meta-arago-glsdk" />
+  <remove-project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" />
+  <remove-project name="meta-omap5-evm.git" path="meta-omap5-evm" />
+  <remove-project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" />
+  <remove-project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" />
+  <remove-project name="meta-intel.git" path="meta-intel" remote="yocto" />
+  <remove-project name="meta-minnow.git" path="meta-minnow" remote="yocto" />
+  <remove-project name="meta-ti.git" path="meta-ti" remote="yocto" />
+  <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
+  <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" />
+
+  <!-- Added new layers to the configuration -->
+  <project remote="github" revision="dizzy" name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra"/>
+
+  <!--
+  This manifest tracks the frozen MEL 2014.12 release base. If necessary,
+  unpin repos/layers from the baseline in the section below.
+  -->
+
+</manifest>
