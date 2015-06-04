@@ -26,6 +26,7 @@
 
   <!-- Added new layers to the configuration -->
   <project remote="github" revision="dizzy" name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra"/>
+  <project remote="github" revision="master" name="MentorEmbedded/meta-valor" path="meta-valor"/>
 
   <!--
   This manifest tracks the frozen MEL 2014.12 release base. If necessary,
