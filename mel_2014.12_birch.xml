@@ -13,6 +13,7 @@
   <remove-project name="meta-mentor.git" />
   <remove-project name="mel-scripts.git" />
   <remove-project name="mel-meta-mentor-private.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
@@ -44,6 +45,7 @@
   <project name="meta-mx6q.git" path="meta-mx6q" revision="f1e087e7314d841339ef77360c7d31eb70df8874" upstream="release/2014.12-birch" />
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="ae785080019cf6ecfedca984dd0dadc3479611c6" upstream="release/2014.12" />
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision= "release/2014.12-async1" upstream= "release/2014.12-async1"/>
 
   <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
   <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="release/2014.12" />
