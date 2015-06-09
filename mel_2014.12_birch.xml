@@ -14,6 +14,7 @@
   <remove-project name="mel-scripts.git" />
   <remove-project name="mel-meta-mentor-private.git" />
   <remove-project name="meta-mentor-xilinx-memf.git" />
+  <remove-project name="mel-manufacturing.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
@@ -50,5 +51,6 @@
   <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
   <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="release/2014.12" />
   <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" upstream= "release/2014.12-async1" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision= "release/2014.12" />
 
 </manifest>
