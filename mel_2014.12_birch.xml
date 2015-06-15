@@ -15,7 +15,6 @@
   <remove-project name="mel-meta-mentor-private.git" />
   <remove-project name="meta-mentor-xilinx-memf.git" />
   <remove-project name="mel-manufacturing.git" />
-  <remove-project name="meta-fastboot.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
