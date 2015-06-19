@@ -45,7 +45,7 @@
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
   <project name="meta-mx6q.git" path="meta-mx6q" revision="release/2014.12-birch" />
   <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
-  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="ae785080019cf6ecfedca984dd0dadc3479611c6" upstream="release/2014.12" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="release/2014.12-birch" upstream="release/2014.12-birch" />
   <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision= "release/2014.12-async1" upstream= "release/2014.12-async1"/>
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision= "release/2014.12_async1"/>
   <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
