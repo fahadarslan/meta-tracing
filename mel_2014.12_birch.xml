@@ -39,7 +39,7 @@
   <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="32c08822dc1833cc8983546ed392bd0d2416efae" upstream="release/2014.12" />
   <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12" />
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master" />
-  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="94157881e135243b33e73b1d35d8a27a00205519" upstream="release/2014.12" />
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="release/2014.12" />
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
   <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
