@@ -17,6 +17,7 @@
   <remove-project name="mel-manufacturing.git" />
   <remove-project name="meta-mentor-xilinx.git" />
   <remove-project name="meta-mentor-amsdk.git" />
+  <remove-project name="mel-docs.git" />
 
   <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
@@ -55,5 +56,6 @@
   <project name="mel-manufacturing.git" path="manufacturing" revision= "release/2014.12" />
   <project name="meta-fastboot.git" path="meta-fastboot" revision="birch_fastboot_addon" />
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision= "release/2014.12-birch" />
+  <project name="mel-docs.git" path="docs" revision= "release/birch" />
 
 </manifest>
