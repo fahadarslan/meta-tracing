@@ -49,11 +49,11 @@
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b6959258e8963ebc9789aaf20e6927e5f3f46f68"/>
 
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="36bd6ce8c63b8876c96fc1cd50e43863cdc2e44e" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="2fafedaa4ae900f82eed572860114b8baa9b36e6" upstream="master"/>
-  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="00a39ed5a5f7037965ff674efe11277bd73416a5" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="239e7e75adc6f93334d5b0682b4ba85fb621375e" upstream="master"/>
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="5509fa944cb9ec640e380ab733ab93ca516189f3" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="45ff23f558a6a81dde2785dff12e2078715b591b" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a623810bd044b895d292a334266cb2cc6a695054" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="9c2d43fc4f8ebdf4833ad0ceb93319002f8e7797" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="8ef99a00dc75c6eed87aa1bc1528614a2a27eddf" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="99a12978abca870406b12aef4f36b05f2b38fcd5" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a89c11a3d89601f6d8499bd7d0f265cf4512d772" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="34dcefb1bfbbac33a771b4b68748e0d9d877365e" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="b78b1a6bb82fb864f1f857bf7259908d0ed930b5" upstream="master"/>
 </manifest>
