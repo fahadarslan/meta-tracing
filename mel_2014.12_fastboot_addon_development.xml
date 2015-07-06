@@ -9,7 +9,7 @@
   -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12.xml" />
+  <include name="mel_2014.12_frozen.xml" />
 
   <!-- For efficiency, drop some un-needed layers from the base release -->
   <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the mbed Proof of Concept based -->
+  <!-- on the MEL 2014.12 async 1 release. -->
+  <!-- As such, it inherits the MEL release configuration/manifest, but will -->
+  <!-- pull updates by replacing/superceding revisions from the base configuration -->
+
+  <!-- Derive from the MEL 2014.12 release configuration as a base -->
+  <include name="mel_2014.12_async_1.xml"/>
+
+  <!-- Since we are on an async release cycle, switch the following repos -->
+  <!-- to continue to pull updates -->
+  <remove-project name="meta-mentor.git"/>
+  <remove-project name="meta-sourcery.git"/>
+  <remove-project name="mel-scripts.git"/>
+  <remove-project name="mel-docs.git"/>
+
+  <project name="meta-mentor.git" path="meta-mentor" revision="release/2014.12-async1"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="release/2014.12-async1"/>
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12"/>
+  <project name="mel-docs.git" path="docs" revision="release/2014.12"/>
+
+  <!-- Mentor repositories -->
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="e66dfc31c485430eba113e4177840e097308bd35" upstream="release/2014.12" />
+  <project name="meta-mentor-mbed.git" path="meta-mentor-mbed" revision="master"/>
+
+  <!-- Non Mentor repo -->
+  <project name="meta-oracle-java.git" path="meta-oracle-java" remote="yocto" revision="079e7f0999e0346283bc11c983eb7f134d8d7311" upstream="master"/>
+</manifest>
