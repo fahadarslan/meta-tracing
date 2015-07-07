@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL 2014.12 async 1 release. -->
+  <!-- As such, it inherits the MEL release configuration/manifest, but will -->
+  <!-- pull updates by replacing/superceding revisions from the base configuration -->
+
+  <!-- Derive from the MEL 2014.12 release configuration as a base -->
+  <include name="mel_2014.12_frozen.xml" />
+
+  <!-- Drop the repositories that are not part of Async 1 -->
+  <remove-project name="meta-arago-glsdk.git" />
+  <remove-project name="meta-mentor-glsdk.git" />
+  <remove-project name="meta-ti-glsdk.git" />
+  <remove-project name="meta-fsl-arm.git" />
+  <remove-project name="meta-intel.git" />
+  <remove-project name="meta-fastboot.git" />
+  <remove-project name="meta-mentor-industrial.git" />
+  <remove-project name="mel-meta-mentor-security.git" />
+  <remove-project name="meta-selinux.git" />
+  <remove-project name="meta-minnow.git" />
+  <remove-project name="meta-mx6q.git" />
+  <remove-project name="meta-omap5-evm.git" />
+  <remove-project name="meta-dra7xx-evm.git" />
+  <remove-project name="mel-meta-fsl-networking.git" />
+
+  <!-- Since we are on an async release cycle, switch the following repos -->
+  <!-- to continue to pull updates -->
+  <remove-project name="meta-mentor.git" />
+  <remove-project name="mel-meta-mentor-private.git" />
+  <remove-project name="meta-sourcery.git" />
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-manufacturing.git" />
+  <remove-project name="mel-docs.git" />
+  <remove-project name="meta-mentor-xilinx.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
+
+  <project name="meta-mentor.git" path="meta-mentor" revision= "b8bda3f9bec37a6341ea120319906045cfdfec6c" upstream= "release/2014.12-async1" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision= "e5a7c7e640f6861869721b216c0675ba5cf1c88e" upstream= "release/2014.12-async1" />
+  <project name="meta-sourcery.git" path="meta-sourcery" revision= "400770848debc5bb0e184de81f2424492621f33c" upstream= "release/2014.12-async1" />
+  <!-- Async1 is released with mel-script hash ea05535f698c37a5b87b2b57d4bcb82e98325845 the foolowing hash contains mel lite fixes ea05535f698c37a5b87b2b57d4bcb82e98325845for amd -->
+  <project name="mel-scripts.git" path="scripts" revision= "2c7a6a23b2f55557e776bc0fe00598758f6e2ece" upstream= "release/2014.12-async1" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision= "53612b921557367d993b4b332c2b8a02e9ff798a" upstream= "release/2014.12" />
+  <project name="mel-docs.git" path="docs" revision= "371970942670be66e98011b0f448069e66ea831b" upstream= "release/2014.12-async1" />
+  <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="7c21c80cf97de3e897b6f885733bd751871b7096" upstream= "release/2014.12_async1"/>
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision= "de6a924acc5e5ebb6a82b9218f4d592cf8f06add" upstream= "release/2014.12-async1"/>
+
+  <!-- New repositories for this async-->
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="64752fbb49b16cad881a7b4d35fef3f8315a673f" upstream="dizzy" />
+
+  <!-- Mentor repositories -->
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision= "7d6f16018fd4a1f1c4f17e27a76747a91ec51b50" upstream= "release/2014.12-async1" />
+
+  <!-- FSL PowerPC specific -->
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="38a3f8372f708f632838ca2497d0fc3958d0b4d6" upstream= "release/2014.12-async1" />
+
+  <!-- Update Layer -->
+  <project name="mel-updates.git" path="updates" revision="release/2014.12" />
+
+</manifest>

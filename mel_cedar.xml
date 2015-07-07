@@ -26,6 +26,18 @@
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx"/>
   <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf"/>
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk"/>
+  <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master"/>
+  <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf"/>
+  <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf"/>
+  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip"/>
+  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua"/>
+
+  <!-- Erlang support -->
+  <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master"/>
+
+  <!-- i.mx6 SoloX Layer -->
+  <project name="mel-meta-mx6solox.git" path="meta-mx6solox"/>
 
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
@@ -54,6 +66,7 @@
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="5509fa944cb9ec640e380ab733ab93ca516189f3" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="99a12978abca870406b12aef4f36b05f2b38fcd5" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a89c11a3d89601f6d8499bd7d0f265cf4512d772" upstream="master"/>
+  <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="2af8d2a0e63aa371045895da03ba2bf98b51adb4" upstream="master"/>
   <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="34dcefb1bfbbac33a771b4b68748e0d9d877365e" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="b78b1a6bb82fb864f1f857bf7259908d0ed930b5" upstream="master"/>
 </manifest>
