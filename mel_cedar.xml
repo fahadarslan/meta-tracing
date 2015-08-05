@@ -56,9 +56,7 @@
   <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.12_fastboot_addon"/>
 
   <!-- Non-Mentor repositories -->
-  <!-- meta-fsl-arm is locked down to b695925 for the cedar release at this
-       time, due to our dependence upon imx_3.10.53_1.1.0_ga. -->
-  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b6959258e8963ebc9789aaf20e6927e5f3f46f68"/>
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="060e2779783a8e581cdace77bf833e4b80f63279" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="3577c351cd82fabd95fb3520c3e4d5809091cb30" upstream="master"/>
