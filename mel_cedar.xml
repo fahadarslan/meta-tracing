@@ -59,12 +59,12 @@
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="060e2779783a8e581cdace77bf833e4b80f63279" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="3577c351cd82fabd95fb3520c3e4d5809091cb30" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="fe124f44c7e84f7627429b2daff673d5d09094f6" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="d2c05c81e8230358dca80cf9df67e49f9f672a29" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5ff540fe7c89aed790affb9582299645f2e9fb9c" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="13a8ca539f8f5b0fd702696f3b15fc24f64aae89" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="b9be739ab439d9283420f90315c51b4c0b1e4ad9" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="ea78c5b91e6bbfa0d02b60ab25592d53b9c5134f" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="2af8d2a0e63aa371045895da03ba2bf98b51adb4" upstream="master"/>
-  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="d4dee20f342cda86cc2fd61310c41302f42f172a" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="a8b723498c9a7106210db140452886894494b4d6" upstream="master"/>
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="9a67b079a7deff2d6e53df031b26304a71c4e0f8" upstream="master"/>
+  <project name="poky.git" path="poky" remote="yocto" revision="a533776d6ff83b6e3e830137455b8382d002768b" upstream="master"/>
 </manifest>
