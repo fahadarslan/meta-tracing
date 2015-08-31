@@ -5,7 +5,7 @@
   <!-- pull updates to only the mel-updates and mel-scripts repositories -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_frozen.xml" />
+  <include name="2014.12/mel_2014.12_frozen.xml" />
 
   <!-- The update builds _must_ not change any layers except updates, scripts and manufacturing -->
   <remove-project name="mel-scripts.git" />

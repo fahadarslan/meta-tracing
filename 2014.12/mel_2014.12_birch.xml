@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL 2014.12 async 1 release. -->
+  <!-- As such, it inherits the MEL release configuration/manifest, but will -->
+  <!-- pull updates by replacing/superceding revisions from the base configuration -->
+
+  <!-- Derive from the MEL 2014.12 release configuration as a base -->
+  <include name="2014.12/mel_2014.12_async_1_frozen.xml" />
+
+  <!-- Remove repositories -->
+  <remove-project name="meta-qt5-mel.git" />
+  <remove-project name="meta-fsl-arm.git" />
+  <remove-project name="meta-mentor.git" />
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-meta-mentor-private.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
+  <remove-project name="mel-manufacturing.git" />
+  <remove-project name="meta-mentor-xilinx.git" />
+  <remove-project name="meta-mentor-amsdk.git" />
+  <remove-project name="mel-docs.git" />
+
+  <project name="meta-mentor.git" path="meta-mentor" revision= "release/2014.12-birch" />
+  <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master" />
+  <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf" revision="release/2014.12-birch" />
+  <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="release/2014.12-birch" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="36c76389caefb652d8afba717b4f9d9e6444135d" upstream="release/2014.12-async1" />
+
+  <!-- Erlang support -->
+  <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master" />
+
+  <!-- i.mx6 SoloX Layer -->
+  <project name="mel-meta-mx6solox.git" path="meta-mx6solox" revision="release/2014.12-birch" />
+
+  <!-- QT5 support -->
+  <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="release/2014.12-birch" />
+
+  <!-- Updated meta-fsl-arm layer for birch -->
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="8507a7eb0c4c64783cebe8e953381c95e2d2d92d" upstream="master" />
+
+  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="040c8ef9030397d4c7b01d7dcdeee699d1b935c3" upstream="release/2014.12" />
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="release/2014.12-birch" />
+  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master" />
+  <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="release/2014.12" />
+  <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="245e634938f1afcd21b42bd17256408d7219a325" upstream="release/2014.12" />
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="869aded23e5f999c4f6b3ecf0562ea9da4862c73" upstream="dizzy" />
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="13a5f2ab84c7284647a3e067a33109c11dae0568" upstream="master" />
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="release/2014.12-birch" />
+  <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="871c9fd1cd241c38ed85d41f722af480e178f902" upstream="release/2014.12" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="release/2014.12-birch" upstream="release/2014.12-birch" />
+  <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision= "release/2014.12-async1" upstream= "release/2014.12-async1"/>
+  <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision= "release/2014.12_async1"/>
+  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="release/2014.12" />
+  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="release/2014.12" />
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.12-async1" upstream= "release/2014.12-async1" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision= "release/2014.12" />
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="birch_fastboot_addon" />
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision= "release/2014.12-birch" />
+  <project name="mel-docs.git" path="docs" revision= "release/birch" />
+
+</manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Derive from the AMD development configuration as a base -->
+  <include name="2014.12/amd-dev.xml" />
+
+  <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
+  <remove-project name="meta-fsl-arm.git" />
+  <remove-project name="meta-fsl-ppc.git" />
+  <remove-project name="meta-ti.git" />
+  <remove-project name="meta-mentor-xilinx.git" />
+  <remove-project name="meta-mentor-xilinx-memf.git" />
+  <remove-project name="Xilinx/meta-xilinx.git" />
+  <remove-project name="meta-virtualization.git" />
+  <remove-project name="mel-meta-fsl-networking.git" />
+  <remove-project name="meta-mentor-amsdk.git" />
+  <remove-project name="mel-meta-mentor-iot.git" />
+  <remove-project name="mel-meta-mentor-mx6solox-memf.git" />
+  <remove-project name="mel-meta-mentor-mx6q-memf.git" />
+  <remove-project name="joaohf/meta-erlang.git" />
+  <remove-project name="mel-meta-mx6solox.git" />
+  <remove-project name="meta-arago-glsdk.git" />
+  <remove-project name="meta-mentor-glsdk.git" />
+  <remove-project name="meta-ti-glsdk.git" />
+  <remove-project name="meta-intel.git" />
+  <remove-project name="meta-fastboot.git" />
+  <remove-project name="meta-minnow.git" />
+  <remove-project name="meta-mx6q.git" />
+  <remove-project name="meta-omap5-evm.git" />
+  <remove-project name="meta-dra7xx-evm.git" />
+  <remove-project name="meta-mentor-softing-ethernetip.git" />
+  <remove-project name="meta-mentor-softing-opcua.git" />
+</manifest>

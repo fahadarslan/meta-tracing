@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Derive from the MEL 2014.05 async 1 release configuration as a base -->
+  <include name="2014.05/mel_2014.05_async_1_frozen.xml"/>
+
+  <!-- Add the QA private repository.  This is not AMD specific but we are -->
+  <!-- one of the projects that use it. -->
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="master"/>
+
+  <!-- Add the AMD specific repositories -->
+  <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
+
+  <!-- This file has been modified to serve as the manifest -->
+  <!-- for the MEL Lite 2014.05 September respin.  It ultimately -->
+  <!-- derives from the frozen async 1 manifest (or will once that -->
+  <!-- release is on supportnet and the manifest is officially -->
+  <!-- frozen).  This adds two additional changes -->
+  <!-- 1. One update to the mel-docs repo to add 3rd party license text  -->
+  <!-- 2. One update to meta-mentor to enable LTTNG in the MEL-lite configuration-->
+  <!-- Note that we use the daisy branch of meta-mentor with an explicit hash. -->
+  <!-- This is a bit counter to our normal processes but we decided that for -->
+  <!-- efficiency we would make that one concession to this respin release -->
+  <remove-project name="meta-mentor.git"/>
+  <remove-project name="mel-docs.git"/>
+  <remove-project name="mel-scripts.git"/>
+  <project name="meta-mentor.git" path="meta-mentor" revision="835d14a3df328ea37ea643516710558310cdffa4" upstream="release/2014.05-async1-lite"/>
+  <project name="mel-docs.git" path="docs" revision="4db4396c82fc3669c0caa507024b41956c9fbe88" upstream="release/2014.05"/>
+  <project name="mel-scripts.git" path="scripts" revision="6b3039e06b9180d3f1406f5969714419c30f3e77" upstream="release/2014.05"/>
+
+  <!-- Bring in the latest bugfixes from mel-updates (notably we are interested in shellshock) -->
+  <remove-project name="mel-updates.git"/>
+  <project name="mel-updates.git" path="updates" revision="d0bf09b8b6be85a22103a1242396ebe9265ed247" upstream="release/2014.05"/>
+</manifest>

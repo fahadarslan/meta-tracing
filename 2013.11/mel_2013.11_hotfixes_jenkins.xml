@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+
+  <default remote="mel" revision="release/2013.11" sync-j="4" />
+
+  <!-- hotfixes -->
+  <project name="hotfixes-meibp.git" path="hotfixes" />
+
+</manifest>

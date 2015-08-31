@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.alm.mentorg.com/" name="github" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+
+  <default remote="github" revision="veracruz3/sand" />
+
+  <project name="fsl-mpc837x-rdb.git" path="fsl-mpc837x-rdb" remote="gitlab" />
+  <project name="fsl-mpc8536ds.git" path="fsl-mpc8536ds" remote="gitlab" />
+  <project name="fsl-mpc8548cds.git" path="fsl-mpc8548cds" remote="gitlab" />
+  <project name="fsl-mpc8572ds.git" path="fsl-mpc8572ds" remote="gitlab" />
+  <project name="fsl-p1022ds.git" path="fsl-p1022ds" remote="gitlab" />
+  <project name="fsl-p2020ds.git" path="fsl-p2020ds" remote="gitlab" />
+  <project name="fsl-p2020rdb.git" path="fsl-p2020rdb" remote="gitlab" />
+  <project name="fsl-p4080ds.git" path="fsl-p4080ds" remote="gitlab" />
+  <project name="sb-core.git" path="sb-core" remote="gitlab" />
+  <project name="mel/scripts" path="scripts" />
+  <project name="internal-tools.git" path="internal-tools" remote="gitlab" />
+  <project name="mirror/openembedded" path="openembedded" revision="fb8697d9dfd35b4195ddfdf64f1c459ffadd437e" />
+</manifest>

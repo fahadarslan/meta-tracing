@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+  
+  <default remote="mel" revision="release/2014.05" sync-j="4" />
+  
+  <project name="mel-docs.git" path="docs" revision="b42c12278900d01ee00eb90146c347fa415b31ed" upstream="release/2014.05" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="20894c73de982c304900c1564e81ba0ef0e47d30" upstream="release/2014.05" />
+  <project name="mel-meta-atp.git" path="meta-atp" revision="fd12f6340797efabd5852d8262541362778c5db9" upstream="release/2014.05" />
+  <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="aaec13d59c2f16af910a856d384adc20dd14fe30" upstream="release/2014.05" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="5080df868f437ce775547bc5cd489867f565f133" upstream="release/2014.05" />
+  <project name="mel-scripts.git" path="scripts" revision="fc586fb378a4ab180752693b687ba453a091165b" upstream="release/2014.05" />
+  <project name="mel-updates.git" path="updates" revision="418a87b56d71056187d5c34966a8010299f3afd1" upstream="release/2014.05" />
+  <project name="mel-x86-pcsim.git" path="x86-pcsim" revision="7a7959371b9c45bb4f02bb33cba69a0f03e67b1d" upstream="release/2014.05" />
+  <project name="meta-amd.git" path="meta-amd" revision="75ac32f14bf031a1d90889a91b57634684e16626" upstream="daisy" />
+  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="ded8d903cfe818a6281a9615d7fd357fa791aa7e" upstream="release/2014.05" />
+  <project name="meta-atp-demo.git" path="meta-atp-demo" revision="9e55e9b30ffdea3d27bed02ccfd638ac28baa3b1" upstream="release/2014.05" />
+  <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="f1c8878416142be45f9a74bf45b45251fb8ea112" upstream="release/2014.05" />
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="3336ef362109eef14f9e73cdededb43caefedb2f" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="299f84cceccacd84651c1cefc1c34e66fb598a96" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="db84acfc8d9ed8dccd4a79de39fee337bc729662" />
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="1d6448fcf3db503ca95fca417185d3c00c9471f8" />
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="822f0ceeb3363bf257a38be294fca66b8a89a688" upstream="release/2014.05" />
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="660427f8c33c47de87a570934606d8c3b91b57c7" upstream="release/2014.05" />
+  <project name="meta-mentor.git" path="meta-mentor" revision="20d1a47d32587d7770d3d29c449afac7f0e3635b" upstream="release/2014.05" />
+  <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="7bdcd1140b729598bae6246a4bbc21c3950aadd8" />
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="90ad875f16fc6cdeb075b04c411621424e3a6b14" upstream="release/2014.05" />
+  <project name="meta-omap5-evm.git" path="meta-omap5-evm" revision="f8e92b59a27f337e32f4a8371eb137b34cfdda4f" upstream="release/2014.05" />
+  <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="2f6ef1ae9851f8808d86d235de5b30e3cca8a1a1" upstream="release/2014.05" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="7a8f5fe098c4a553249710f6869c01bac888d398" />
+  <project name="meta-ro-rootfs.git" path="meta-ro-rootfs" revision="021fa76deb95db42a47dca14b5e4d7b5291dfc26" upstream="release/2014.05" />
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="c550d5e5d488ad44734463d5d9a1707398099661" upstream="release/2014.05" />
+  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.05" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="ebc0f84be0eff71cb101bea47ffa15553113d5e4" />
+  <project name="meta-tracing.git" path="meta-tracing" revision="1797ea3cf2840640e89854fc0aa0fa1c095ec68b" upstream="daisy" />
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="abf028895344a0e485fa194e5cac8bd7006c670b" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="ee6f88f28566acaada77a74ce02f66fee0219ab4" />
+  <project name="poky.git" path="poky" remote="yocto" revision="5306aaab07a7a9b3b0c7e8008dabbd2e89daec28" />
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+
+  <default remote="mel" revision="release/2013.03" sync-j="4" />
+
+  <project name="poky.git" path="poky" revision="af0d398ab542488af663f62e8d1fae18b55bc146" upstream="mentor/atp" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="30ed918965489176633b8ddded018f798387ff82" upstream="danny" />
+
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="0621a1216a9e5f329a375925b297fe03e699589c" upstream="danny" />
+  <project name="MentorEmbedded/meta-mentor.git" path="meta-mentor" remote="github" revision="b7acd757bedfa73f959071df5b3f9bc73e95a216" upstream="mentor/atp" />
+
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="0508dec390feda14448f53823cea4e8f852b1905" upstream="release/2013.03" />
+  <project name="mel-docs.git" path="docs" revision="203ed79a2756b698398dcb7e046e935a2040f10f" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="4d2d6f8aa91c65abc9bf6a6881c82c08966a7029" />
+  <project name="mel-scripts.git" path="scripts" revision="3ea6ff0d551708789245776ded03162266dfc0e9" upstream="release/2013.03" />
+
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="869452daf4fe085d5013905f6a5a6584a0e3a56e" upstream="danny" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="81cfb66250e589be5fadef9d1be0b9a2e2b0d4d2" upstream="danny" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="3c5818c96fa3c62369311b7d91d54a9154e3b888" upstream="danny" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="891eddf7a2f2c031becb40282ca7aea8bf2841d4" upstream="danny" />
+
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="45c60007853954c2091046afea4d64fd02182df5" upstream="release/2013.03" />
+  <project name="meta-marzen.git" path="meta-marzen" revision="fb9f5a1110dc06b76e8e2eba9ea4a5fe986cfc64" upstream="release/2013.03" />
+  <project name="broadcom-xlp.git" path="broadcom-xlp" remote="gitlab" revision="8aa98dfbb846ef06aa7bc97249acdeb170c70e35" upstream="release/6.0.0" />
+  <project name="intel-crossville.git" path="intel-crossville" remote="gitlab" revision="5f562ee235bc644f48b16570a0831323e5abcf75" upstream="release/2013.03" />
+
+  <!-- ATP addon -->
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="c93d2cb4763eab05f179530e35bb08e38d54f4b2" upstream="3.0" />
+  <project name="mel-meta-atp.git" path="meta-atp" revision="b7717519f8b44ac2669ec785e07ed4829822a52a" upstream="release/2013.03" />
+  <project name="meta-atp-demo.git" path="meta-atp-demo" revision="release/2013.03" />
+</manifest>

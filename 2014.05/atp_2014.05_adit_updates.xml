@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the ATP 2014.05 updates builds. -->
+
+  <!-- Derive from the MEL 2014.05 release configuration as a base -->
+  <include name="2014.05/mel_2014.05_updates.xml" />
+
+  <!-- Add in adit-custom -->
+  <project name="adit-custom.git" path="adit-custom" revision="release/2014.05" />
+
+  <!-- hotfixes -->
+  <project name="hotfixes-meibp.git" path="hotfixes" revision="release/2014.05" />
+
+</manifest>

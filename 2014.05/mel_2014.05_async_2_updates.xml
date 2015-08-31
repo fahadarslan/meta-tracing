@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL 2014.05 Async2 update builds. -->
+  <!-- As such, it inherits the MEL async2 frozen configuration/manifest, but will -->
+  <!-- pull updates to only the mel-updates and mel-scripts repositories -->
+
+  <!-- Derive from the MEL 2014.05 release configuration as a base -->
+  <include name="2014.05/mel_2014.05_async_2_frozen.xml" />
+
+  <!-- The update builds _must_ not change any layers except updates and scripts -->
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-updates.git" />
+
+  <project name="mel-scripts.git" path="scripts" revision="release/2014.05" />
+  <project name="mel-updates.git" path="updates" revision="release/2014.05" />
+
+</manifest>

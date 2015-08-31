@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+  
+  <default remote="mel" revision="meibp/2013" sync-j="4" />
+  
+  <project name="broadcom-xlp.git" path="broadcom-xlp" remote="gitlab" revision="8aa98dfbb846ef06aa7bc97249acdeb170c70e35" upstream="release/6.0.0" />
+  <project name="intel-crossville.git" path="intel-crossville" remote="gitlab" revision="53ff14a120e89242cbf765b0e7ff3027f37663fd" upstream="release/6.0.0" />
+  <project name="mel-ivi-adit.git" path="ivi-adit" revision="583033249c290c9bbf4679049e4c350c000d47a4" upstream="release/6.0.0" />
+  <project name="mel-ivi-genivi.git" path="ivi-genivi" revision="4017610bb50615987f7d9491a8fc7e8167334f64" upstream="release/6.0.0" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="a3d3b97528e2e2870147f36a981aeb379f59cfcb" upstream="release/6.0.0" />
+  <project name="mel-meta-atp.git" path="meta-atp" revision="83cecfe101917c1caa8529183b48aed8d4a7be89" upstream="meibp/2013" />
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="e06bdc2f90ec128de20a73c94899efb26656fc2c" upstream="release/2013.03" />
+  <project name="mel-rb-ivi.git" path="rb-ivi" revision="ca53a628a739b9c548572126b707a5c1d27b2add" upstream="release/6.0.0" />
+  <project name="mel-scripts.git" path="scripts" revision="385e2ba41ca21ae5ee976b10f694fd8643cb7980" upstream="meibp/2013" />
+  <project name="mel-x86-pcsim.git" path="mel-x86-pcsim" revision="cf3b886bd89613d189764ff7bee897ae62afb494" upstream="master" />
+  <project name="meta-fsl-arm-private.git" path="meta-fsl-arm-private" revision="76aede79832edd4d77416f1cc8eaa87d7de3bea9" upstream="meibp/2013" />
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="a0e486a76af5819ee76ac34e966feb72bd3c48bd" upstream="danny" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="81cfb66250e589be5fadef9d1be0b9a2e2b0d4d2" upstream="danny" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="3c5818c96fa3c62369311b7d91d54a9154e3b888" upstream="danny" />
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="c93d2cb4763eab05f179530e35bb08e38d54f4b2" upstream="3.0" />
+  <project name="MentorEmbedded/meta-mentor.git" path="meta-mentor" remote="github" revision="edde438d41dcbcbced074e52736978ee79cc91bd" upstream="mentor/mel6" />
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="03c0635e3d10443204211cba45b88e51e5ea4783" upstream="meibp/2013" />
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="dd059648cd81217c602585015c58679477904787" upstream="danny" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="aefef7fe953297263fd897d47b111fe2826a0ea2" upstream="danny" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="30ed918965489176633b8ddded018f798387ff82" upstream="danny" />
+  <project name="poky.git" path="poky" revision="6f8c5440cf0798d10b2c71b8cdf17c1308328346" upstream="mentor/danny" />
+</manifest>

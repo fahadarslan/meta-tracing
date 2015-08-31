@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--
-  This manifest defines the development configuration for the Valor team's
-  MEL 2014.12 for Wandboard Quad.  As such, it inherits the MEL 2014.12 release
+  This manifest defines the development configuration for the i.MX6 Fastboot
+  add-on for MEL 2014.12.  As such, it inherits the MEL 2014.12 release
   configuration.  It is intended to provide a set of repositories
   for developers and QA. It contains repositories that will not be in the 
   final set of repositories used to generate a released product.
   -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_frozen.xml" />
+  <include name="2014.12/mel_2014.12_frozen.xml" />
 
   <!-- For efficiency, drop some un-needed layers from the base release -->
   <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />
@@ -24,13 +24,10 @@
   <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
   <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" />
 
-  <!-- Added new layers to the configuration -->
-  <project remote="github" revision="dizzy" name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra"/>
-  <project remote="github" revision="master" name="MentorEmbedded/meta-valor" path="meta-valor"/>
-
   <!--
-  This manifest tracks the frozen MEL 2014.12 release base. If necessary,
-  unpin repos/layers from the baseline in the section below.
+  After the base MEL 2014.12 release is frozen, this manifest will begin 
+  tracking the frozen manifest.  At that point, it may be necessary to 
+  unpin repos/layers from the baseline for development and/or testing
+  of the release of the MEL 2014.12 Fastboot add-on for the i.MX6 
   -->
-
 </manifest>

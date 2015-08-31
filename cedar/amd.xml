@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Derive from the AMD development configuration as a base -->
-  <include name="amd-dev.xml" />
+  <include name="cedar/amd-dev.xml" />
 
   <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
   <remove-project name="Xilinx/meta-xilinx.git" />

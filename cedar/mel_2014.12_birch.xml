@@ -5,7 +5,7 @@
   <!-- pull updates by replacing/superceding revisions from the base configuration -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_async_1_frozen.xml" />
+  <include name="2014.12/mel_2014.12_async_1_frozen.xml" />
 
   <!-- Remove repositories -->
   <remove-project name="meta-qt5-mel.git" />

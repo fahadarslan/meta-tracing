@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+
+  <default remote="mel" revision="master" sync-j="4" />
+
+  <project name="meta-sourcery.git" path="meta-sourcery" />
+  <project name="meta-mentor.git" path="meta-mentor" />
+  <project name="meta-tracing.git" path="meta-tracing" />
+
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" />
+  <project name="mel-docs.git" path="docs" />
+  <project name="mel-manufacturing.git" path="manufacturing" />
+  <project name="mel-scripts.git" path="scripts" />
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" />
+
+  <project name="meta-fsl-arm-extra.git" path="meta-fsl-arm-extra" />
+
+  <project name="meta-mx6q.git" path="meta-mx6q" />
+  <project name="meta-marzen.git" path="meta-marzen" />
+  <project name="broadcom-xlp.git" path="broadcom-xlp" remote="gitlab" />
+  <project name="intel-crossville.git" path="intel-crossville" remote="gitlab" />
+  <project name="mel-x86-pcsim.git" path="x86-pcsim" />
+
+  <!-- ATP -->
+  <project name="meta-ro-rootfs.git" path="meta-ro-rootfs" />
+  <project name="mel-meta-atp.git" path="meta-atp" />
+  <project name="meta-atp-demo.git" path="meta-atp-demo" />
+
+  <!-- Linux Containers -->
+  <project name="meta-virtualization.git" path="meta-virtualization" />
+
+  <project name="Freescale/meta-fsl-ivi.git" path="meta-fsl-ivi" remote="github" />
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" />
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" />
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" />
+  <project name="poky.git" path="poky" remote="yocto" />
+</manifest>
