@@ -18,7 +18,7 @@
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
 
-  <project name="meta-mx6q.git" path="meta-mx6q"/>
+  <project name="meta-mx6.git" path="meta-mx6"/>
   <project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
   <project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
   <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk"/>
@@ -35,9 +35,6 @@
 
   <!-- Erlang support -->
   <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master"/>
-
-  <!-- i.mx6 SoloX Layer -->
-  <project name="mel-meta-mx6solox.git" path="meta-mx6solox"/>
 
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
