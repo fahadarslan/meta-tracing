@@ -19,8 +19,8 @@
   <project name="mel-scripts.git" path="scripts"/>
 
   <project name="meta-mx6.git" path="meta-mx6"/>
-  <project name="meta-ti-glsdk.git" path="meta-ti-glsdk"/>
-  <project name="meta-arago-glsdk.git" path="meta-arago-glsdk"/>
+  <project name="meta-arago.git" path="meta-arago" revision="mel-cedar"/>
+  <project name="meta-glsdk.git" path="meta-glsdk" revision="cedar"/>
   <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk"/>
   <project name="meta-omap5-evm.git" path="meta-omap5-evm"/>
   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm"/>
