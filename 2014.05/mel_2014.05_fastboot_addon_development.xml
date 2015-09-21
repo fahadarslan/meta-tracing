@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!--
+  This manifest defines the development configuration for the i.MX6 Fastboot
+  add-on for MEL 2014.05.  As such, it inherits the MEL 2014.05 release
+  'frozen' configuration.  It is intended to provide a set of repositories
+  for developers and QA. It contains repositories that will not be in the 
+  final set of repositories used to generate a released product.
+  -->
+
+  <!-- Derive from the MEL 2014.05 release configuration as a base -->
+  <include name="2014.05/mel_2014.05_frozen.xml" />
+
+  <!-- For efficiency, drop some un-needed layers from the base release -->
+  <remove-project name="meta-ti-glsdk.git" path="meta-ti-glsdk" />
+  <remove-project name="meta-arago-glsdk.git" path="meta-arago-glsdk" />
+  <remove-project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" />
+  <remove-project name="meta-omap5-evm.git" path="meta-omap5-evm" />
+  <remove-project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" />
+  <remove-project name="mel-x86-pcsim.git" path="x86-pcsim" />
+  <remove-project name="mel-meta-atp.git" path="meta-atp" />
+  <remove-project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" />
+  <remove-project name="meta-intel.git" path="meta-intel" remote="yocto" />
+  <remove-project name="meta-ivi.git" path="meta-ivi" remote="yocto" />
+  <remove-project name="meta-minnow.git" path="meta-minnow" remote="yocto" />
+  <remove-project name="meta-ti.git" path="meta-ti" remote="yocto" />
+  <remove-project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" />
+  <remove-project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" />
+
+  <!--
+  Unpin repos/layers from the baseline that are needed for the i.MX6
+  Fastboot add-on for MEL 2014.05 release development and/or testing
+  -->
+  <remove-project name="mel-docs.git" path="docs" />
+  <project name="mel-docs.git" path="docs" upstream="release/2014.05" />
+  <remove-project name="mel-scripts.git" path="scripts" />
+  <project name="mel-scripts.git" path="scripts" upstream="release/2014.05" />
+
+  <!-- Add the i.MX6 Fastboot add-on for MEL 2014.05 release specific repositories -->
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.05_fastboot_addon" />
+</manifest>

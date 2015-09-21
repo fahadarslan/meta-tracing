@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL 2014.05 async 1 release. -->
+  <!-- As such, it inherits the MEL release configuration/manifest, but will -->
+  <!-- pull updates by replacing/superceding revisions from the base configuration -->
+
+  <!-- Derive from the MEL 2014.05 release configuration as a base -->
+  <include name="2014.05/mel_2014.05_frozen.xml" />
+
+  <!-- Since we are on an async release cycle, switch the following repos -->
+  <!-- to continue to pull updates -->
+  <remove-project name="meta-sourcery.git" />
+  <remove-project name="meta-mentor.git" />
+  <remove-project name="meta-qt5/meta-qt5.git" />
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-updates.git" />
+  <remove-project name="mel-docs.git" />
+
+  <!-- Mentor repositories -->
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="f771c1c813b58ea1cb228d6f03e0ce4b3924e868" upstream="release/2014.05-async1" />
+  <project name="meta-mentor.git" path="meta-mentor" revision="781b31c0e224e31cda15aa05ff1a0169850ffcb4" upstream="release/2014.05-async1" />
+  <project name="mel-scripts.git" path="scripts" revision="ee8398e06752353db81eeb9e932d2485086b2b75" upstream="release/2014.05" />
+  <project name="mel-updates.git" path="updates" revision="418a87b56d71056187d5c34966a8010299f3afd1" upstream="release/2014.05" />
+  <project name="mel-docs.git" path="docs" revision="115e702a1c953b8e99621e4870eca3713760d23f" upstream="release/2014.05" />
+
+  <!-- Public/upstream repositories -->
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="a94c35bdad832861474a87852dad9000ee0d0c8b" upstream="master" />
+
+  <!-- New repositories for this async -->
+  <project name="meta-amd.git" path="meta-amd" revision="21d4d730bd95496a43448ba6339dc498d1e4f36d" upstream="release/2014.05-async1" />
+  <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="1ecd6d44d4113a1f1e2a0e99cd87bbb6d9dba071" upstream="release/2014.05-async1" />
+</manifest>

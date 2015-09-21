@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the full release configuration used to build the i.MX6 Fastboot add-on for MEL 2014.05. -->
+
+  <!-- Define the defaults to pull repositories -->
+  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+  <default remote="mel" revision="release/2014.05" sync-j="4" upstream="release/2014.05" />
+
+  <!-- Add the specific repository to be packaged as part of the i.MX6 Fastboot add-on for MEL 2014.05 -->
+  <project name="meta-fastboot.git" path="meta-fastboot" revision="release/2014.05_fastboot_addon" />
+
+  <!-- Add the repositories required to build the add-on -->
+  <!--   (The mel-manufacturing revision is the same as it was in MEL/ATP 2014.05) -->
+  <project name="mel-docs.git" path="docs" />
+  <project name="mel-scripts.git" path="scripts" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="20894c73de982c304900c1564e81ba0ef0e47d30" upstream="release/2014.05" />
+</manifest>

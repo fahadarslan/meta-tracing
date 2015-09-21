@@ -1,0 +1,469 @@
+
+Transferring files from branch: upstream/meibp/2013
+
+Target directory for branch: meibp/2013
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: meibp/2013/default.xml
+mkdir: created directory `meibp'
+mkdir: created directory `meibp/2013'
+In git, adding upstream/meibp/2013:default.xml here: meibp/2013/default.xml
+
+
+
+Transferring files from branch: upstream/mel4/current
+
+Target directory for branch: mel4/current
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: mel4/current/default.xml
+mkdir: created directory `mel4'
+mkdir: created directory `mel4/current'
+In git, adding upstream/mel4/current:default.xml here: mel4/current/default.xml
+
+
+
+Transferring files from branch: upstream/next
+
+Target directory for branch: next
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: next/default.xml
+mkdir: created directory `next'
+In git, adding upstream/next:default.xml here: next/default.xml
+
+
+
+Transferring files from branch: upstream/pcsim
+
+Target directory for branch: pcsim
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: pcsim/default.xml
+mkdir: created directory `pcsim'
+In git, adding upstream/pcsim:default.xml here: pcsim/default.xml
+
+
+
+Transferring files from branch: upstream/release/2013.03
+
+Target directory for branch: 2013.03
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 2013.03/default.xml
+mkdir: created directory `2013.03'
+In git, adding upstream/release/2013.03:default.xml here: 2013.03/default.xml
+
+
+
+Transferring files from branch: upstream/release/2013.11
+
+Target directory for branch: 2013.11
+Found the following manifest files on the branch:
+default.xml
+mel_2013.11_hotfixes_jenkins.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 2013.11/default.xml
+mkdir: created directory `2013.11'
+In git, adding upstream/release/2013.11:default.xml here: 2013.11/default.xml
+
+Check if ./mel_2013.11_hotfixes_jenkins.xml exists
+./mel_2013.11_hotfixes_jenkins.xml does not exist
+Creating directory for: 2013.11/mel_2013.11_hotfixes_jenkins.xml
+In git, adding upstream/release/2013.11:mel_2013.11_hotfixes_jenkins.xml here: 2013.11/mel_2013.11_hotfixes_jenkins.xml
+
+
+
+Transferring files from branch: upstream/release/2013.11-adit
+
+Target directory for branch: 2013.11-adit
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 2013.11-adit/default.xml
+mkdir: created directory `2013.11-adit'
+In git, adding upstream/release/2013.11-adit:default.xml here: 2013.11-adit/default.xml
+
+
+
+Transferring files from branch: upstream/release/2014.05
+
+Target directory for branch: 2014.05
+Found the following manifest files on the branch:
+adit.xml
+amd-dev.xml
+amd.xml
+atp_2014.05_adit_updates.xml
+default.xml
+lennox_lcc.xml
+mel_2014.05_async_1_frozen.xml
+mel_2014.05_async_1_updates.xml
+mel_2014.05_async_2_frozen.xml
+mel_2014.05_async_2_updates.xml
+mel_2014.05_fastboot_addon_development.xml
+mel_2014.05_fastboot_addon_jenkins.xml
+mel_2014.05_frozen.xml
+mel_2014.05_updates.xml
+Check if ./adit.xml exists
+./adit.xml already exists!
+Check if ./adit.xml and upstream/release/2014.05:adit.xml match
+Files - and adit.xml differ
+File upstream/release/2014.05:adit.xml doesn't match adit.xml
+WARNING: conflicting versions of upstream/release/2014.05:adit.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.05/adit.xml
+mkdir: created directory `2014.05'
+In git, adding upstream/release/2014.05:adit.xml here: 2014.05/adit.xml
+
+Check if ./amd-dev.xml exists
+./amd-dev.xml already exists!
+Check if ./amd-dev.xml and upstream/release/2014.05:amd-dev.xml match
+Files - and amd-dev.xml differ
+File upstream/release/2014.05:amd-dev.xml doesn't match amd-dev.xml
+WARNING: conflicting versions of upstream/release/2014.05:amd-dev.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.05/amd-dev.xml
+In git, adding upstream/release/2014.05:amd-dev.xml here: 2014.05/amd-dev.xml
+
+Check if ./amd.xml exists
+./amd.xml already exists!
+Check if ./amd.xml and upstream/release/2014.05:amd.xml match
+Files - and amd.xml differ
+File upstream/release/2014.05:amd.xml doesn't match amd.xml
+WARNING: conflicting versions of upstream/release/2014.05:amd.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.05/amd.xml
+In git, adding upstream/release/2014.05:amd.xml here: 2014.05/amd.xml
+
+Check if ./atp_2014.05_adit_updates.xml exists
+./atp_2014.05_adit_updates.xml does not exist
+Creating directory for: 2014.05/atp_2014.05_adit_updates.xml
+In git, adding upstream/release/2014.05:atp_2014.05_adit_updates.xml here: 2014.05/atp_2014.05_adit_updates.xml
+
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 2014.05/default.xml
+In git, adding upstream/release/2014.05:default.xml here: 2014.05/default.xml
+
+Check if ./lennox_lcc.xml exists
+./lennox_lcc.xml does not exist
+Creating directory for: 2014.05/lennox_lcc.xml
+In git, adding upstream/release/2014.05:lennox_lcc.xml here: 2014.05/lennox_lcc.xml
+
+Check if ./mel_2014.05_async_1_frozen.xml exists
+./mel_2014.05_async_1_frozen.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_async_1_frozen.xml
+In git, adding upstream/release/2014.05:mel_2014.05_async_1_frozen.xml here: 2014.05/mel_2014.05_async_1_frozen.xml
+
+Check if ./mel_2014.05_async_1_updates.xml exists
+./mel_2014.05_async_1_updates.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_async_1_updates.xml
+In git, adding upstream/release/2014.05:mel_2014.05_async_1_updates.xml here: 2014.05/mel_2014.05_async_1_updates.xml
+
+Check if ./mel_2014.05_async_2_frozen.xml exists
+./mel_2014.05_async_2_frozen.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_async_2_frozen.xml
+In git, adding upstream/release/2014.05:mel_2014.05_async_2_frozen.xml here: 2014.05/mel_2014.05_async_2_frozen.xml
+
+Check if ./mel_2014.05_async_2_updates.xml exists
+./mel_2014.05_async_2_updates.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_async_2_updates.xml
+In git, adding upstream/release/2014.05:mel_2014.05_async_2_updates.xml here: 2014.05/mel_2014.05_async_2_updates.xml
+
+Check if ./mel_2014.05_fastboot_addon_development.xml exists
+./mel_2014.05_fastboot_addon_development.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_fastboot_addon_development.xml
+In git, adding upstream/release/2014.05:mel_2014.05_fastboot_addon_development.xml here: 2014.05/mel_2014.05_fastboot_addon_development.xml
+
+Check if ./mel_2014.05_fastboot_addon_jenkins.xml exists
+./mel_2014.05_fastboot_addon_jenkins.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_fastboot_addon_jenkins.xml
+In git, adding upstream/release/2014.05:mel_2014.05_fastboot_addon_jenkins.xml here: 2014.05/mel_2014.05_fastboot_addon_jenkins.xml
+
+Check if ./mel_2014.05_frozen.xml exists
+./mel_2014.05_frozen.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_frozen.xml
+In git, adding upstream/release/2014.05:mel_2014.05_frozen.xml here: 2014.05/mel_2014.05_frozen.xml
+
+Check if ./mel_2014.05_updates.xml exists
+./mel_2014.05_updates.xml does not exist
+Creating directory for: 2014.05/mel_2014.05_updates.xml
+In git, adding upstream/release/2014.05:mel_2014.05_updates.xml here: 2014.05/mel_2014.05_updates.xml
+
+
+
+Transferring files from branch: upstream/release/2014.12
+
+Target directory for branch: 2014.12
+Found the following manifest files on the branch:
+adit.xml
+amd-dev.xml
+amd.xml
+mel_2014.12_async_1_frozen.xml
+mel_2014.12_async_1_mbed.xml
+mel_2014.12_birch.xml
+mel_2014.12_fastboot_addon_development.xml
+mel_2014.12_frozen.xml
+mel_2014.12_updates.xml
+mel_2014.12_valor.xml
+mel_Ash_fastboot_addon_development.xml
+mel_birch_fastboot_addon_development.xml
+Check if ./adit.xml exists
+./adit.xml already exists!
+Check if ./adit.xml and upstream/release/2014.12:adit.xml match
+Creating directory for: 2014.12/adit.xml
+mkdir: created directory `2014.12'
+In git, moving adit.xml to here: 2014.12/./adit.xml
+
+Check if ./amd-dev.xml exists
+./amd-dev.xml already exists!
+Check if ./amd-dev.xml and upstream/release/2014.12:amd-dev.xml match
+Files - and amd-dev.xml differ
+File upstream/release/2014.12:amd-dev.xml doesn't match amd-dev.xml
+WARNING: conflicting versions of upstream/release/2014.12:amd-dev.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.12/amd-dev.xml
+In git, adding upstream/release/2014.12:amd-dev.xml here: 2014.12/amd-dev.xml
+
+Check if ./amd.xml exists
+./amd.xml already exists!
+Check if ./amd.xml and upstream/release/2014.12:amd.xml match
+Files - and amd.xml differ
+File upstream/release/2014.12:amd.xml doesn't match amd.xml
+WARNING: conflicting versions of upstream/release/2014.12:amd.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.12/amd.xml
+In git, adding upstream/release/2014.12:amd.xml here: 2014.12/amd.xml
+
+Check if ./mel_2014.12_async_1_frozen.xml exists
+./mel_2014.12_async_1_frozen.xml already exists!
+Check if ./mel_2014.12_async_1_frozen.xml and upstream/release/2014.12:mel_2014.12_async_1_frozen.xml match
+Creating directory for: 2014.12/mel_2014.12_async_1_frozen.xml
+In git, moving mel_2014.12_async_1_frozen.xml to here: 2014.12/./mel_2014.12_async_1_frozen.xml
+
+Check if ./mel_2014.12_async_1_mbed.xml exists
+./mel_2014.12_async_1_mbed.xml already exists!
+Check if ./mel_2014.12_async_1_mbed.xml and upstream/release/2014.12:mel_2014.12_async_1_mbed.xml match
+Creating directory for: 2014.12/mel_2014.12_async_1_mbed.xml
+In git, moving mel_2014.12_async_1_mbed.xml to here: 2014.12/./mel_2014.12_async_1_mbed.xml
+
+Check if ./mel_2014.12_birch.xml exists
+./mel_2014.12_birch.xml already exists!
+Check if ./mel_2014.12_birch.xml and upstream/release/2014.12:mel_2014.12_birch.xml match
+Files - and mel_2014.12_birch.xml differ
+File upstream/release/2014.12:mel_2014.12_birch.xml doesn't match mel_2014.12_birch.xml
+WARNING: conflicting versions of upstream/release/2014.12:mel_2014.12_birch.xml detected
+Assuming one on master branch is for cedar
+Creating directory for: 2014.12/mel_2014.12_birch.xml
+In git, adding upstream/release/2014.12:mel_2014.12_birch.xml here: 2014.12/mel_2014.12_birch.xml
+
+Check if ./mel_2014.12_fastboot_addon_development.xml exists
+./mel_2014.12_fastboot_addon_development.xml already exists!
+Check if ./mel_2014.12_fastboot_addon_development.xml and upstream/release/2014.12:mel_2014.12_fastboot_addon_development.xml match
+Creating directory for: 2014.12/mel_2014.12_fastboot_addon_development.xml
+In git, moving mel_2014.12_fastboot_addon_development.xml to here: 2014.12/./mel_2014.12_fastboot_addon_development.xml
+
+Check if ./mel_2014.12_frozen.xml exists
+./mel_2014.12_frozen.xml already exists!
+Check if ./mel_2014.12_frozen.xml and upstream/release/2014.12:mel_2014.12_frozen.xml match
+Creating directory for: 2014.12/mel_2014.12_frozen.xml
+In git, moving mel_2014.12_frozen.xml to here: 2014.12/./mel_2014.12_frozen.xml
+
+Check if ./mel_2014.12_updates.xml exists
+./mel_2014.12_updates.xml already exists!
+Check if ./mel_2014.12_updates.xml and upstream/release/2014.12:mel_2014.12_updates.xml match
+Creating directory for: 2014.12/mel_2014.12_updates.xml
+In git, moving mel_2014.12_updates.xml to here: 2014.12/./mel_2014.12_updates.xml
+
+Check if ./mel_2014.12_valor.xml exists
+./mel_2014.12_valor.xml already exists!
+Check if ./mel_2014.12_valor.xml and upstream/release/2014.12:mel_2014.12_valor.xml match
+Creating directory for: 2014.12/mel_2014.12_valor.xml
+In git, moving mel_2014.12_valor.xml to here: 2014.12/./mel_2014.12_valor.xml
+
+Check if ./mel_Ash_fastboot_addon_development.xml exists
+./mel_Ash_fastboot_addon_development.xml already exists!
+Check if ./mel_Ash_fastboot_addon_development.xml and upstream/release/2014.12:mel_Ash_fastboot_addon_development.xml match
+Creating directory for: 2014.12/mel_Ash_fastboot_addon_development.xml
+In git, moving mel_Ash_fastboot_addon_development.xml to here: 2014.12/./mel_Ash_fastboot_addon_development.xml
+
+Check if ./mel_birch_fastboot_addon_development.xml exists
+./mel_birch_fastboot_addon_development.xml already exists!
+Check if ./mel_birch_fastboot_addon_development.xml and upstream/release/2014.12:mel_birch_fastboot_addon_development.xml match
+Creating directory for: 2014.12/mel_birch_fastboot_addon_development.xml
+In git, moving mel_birch_fastboot_addon_development.xml to here: 2014.12/./mel_birch_fastboot_addon_development.xml
+
+
+
+Transferring files from branch: upstream/release/5.0.0
+
+Target directory for branch: 5.0.0
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 5.0.0/default.xml
+mkdir: created directory `5.0.0'
+In git, adding upstream/release/5.0.0:default.xml here: 5.0.0/default.xml
+
+
+
+Transferring files from branch: upstream/release/6.0.0
+
+Target directory for branch: 6.0.0
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: 6.0.0/default.xml
+mkdir: created directory `6.0.0'
+In git, adding upstream/release/6.0.0:default.xml here: 6.0.0/default.xml
+
+
+
+Transferring files from branch: upstream/release/meibp2013.05
+
+Target directory for branch: meibp2013.05
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: meibp2013.05/default.xml
+mkdir: created directory `meibp2013.05'
+In git, adding upstream/release/meibp2013.05:default.xml here: meibp2013.05/default.xml
+
+
+
+Transferring files from branch: upstream/release/meibp2013.08
+
+Target directory for branch: meibp2013.08
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: meibp2013.08/default.xml
+mkdir: created directory `meibp2013.08'
+In git, adding upstream/release/meibp2013.08:default.xml here: meibp2013.08/default.xml
+
+
+
+Transferring files from branch: upstream/veracruz/sand
+
+Target directory for branch: veracruz/sand
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: veracruz/sand/default.xml
+mkdir: created directory `veracruz'
+mkdir: created directory `veracruz/sand'
+In git, adding upstream/veracruz/sand:default.xml here: veracruz/sand/default.xml
+
+
+
+Transferring files from branch: upstream/veracruz3/sand
+
+Target directory for branch: veracruz3/sand
+Found the following manifest files on the branch:
+default.xml
+Check if ./default.xml exists
+./default.xml does not exist
+Creating directory for: veracruz3/sand/default.xml
+mkdir: created directory `veracruz3'
+mkdir: created directory `veracruz3/sand'
+In git, adding upstream/veracruz3/sand:default.xml here: veracruz3/sand/default.xml
+
+
+Moving the remaining manifests into the cedar release directory
+mkdir: created directory `cedar'
+In git, moving amd-dev.xml to here: cedar/amd-dev.xml
+In git, moving amd.xml to here: cedar/amd.xml
+In git, moving mel_2014.12_birch.xml to here: cedar/mel_2014.12_birch.xml
+In git, moving mel_cedar.xml to here: cedar/mel_cedar.xml
+Adding cedar to include directive in: ./cedar/amd-dev.xml
+Adding cedar to include directive in: ./cedar/amd.xml
+
+WARNING: ./cedar/mel_2014.12_birch.xml included mel_2014.12_async_1_frozen.xml which was not found in local directory . . .  searching other dirs
+Found 2014.12/mel_2014.12_async_1_frozen.xml to use in ./cedar/mel_2014.12_birch.xml
+
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_valor.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_birch_fastboot_addon_development.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_Ash_fastboot_addon_development.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_async_1_frozen.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_async_1_mbed.xml
+Adding 2014.12 to include directive in: ./2014.12/amd-dev.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_updates.xml
+Adding 2014.12 to include directive in: ./2014.12/adit.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_fastboot_addon_development.xml
+Adding 2014.12 to include directive in: ./2014.12/amd.xml
+Adding 2014.12 to include directive in: ./2014.12/mel_2014.12_birch.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_fastboot_addon_development.xml
+Adding 2014.05 to include directive in: ./2014.05/lennox_lcc.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_async_1_updates.xml
+Adding 2014.05 to include directive in: ./2014.05/amd-dev.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_updates.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_async_1_frozen.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_async_2_updates.xml
+Adding 2014.05 to include directive in: ./2014.05/adit.xml
+Adding 2014.05 to include directive in: ./2014.05/atp_2014.05_adit_updates.xml
+Adding 2014.05 to include directive in: ./2014.05/amd.xml
+Adding 2014.05 to include directive in: ./2014.05/mel_2014.05_async_2_frozen.xml
+## manifest-consolidation...origin/manifest-consolidation [ahead 1, behind 1]
+A  2013.03/default.xml
+A  2013.11-adit/default.xml
+A  2013.11/default.xml
+A  2013.11/mel_2013.11_hotfixes_jenkins.xml
+R  adit.xml -> 2014.05/adit.xml
+A  2014.05/amd-dev.xml
+A  2014.05/amd.xml
+A  2014.05/atp_2014.05_adit_updates.xml
+A  2014.05/default.xml
+A  2014.05/lennox_lcc.xml
+A  2014.05/mel_2014.05_async_1_frozen.xml
+A  2014.05/mel_2014.05_async_1_updates.xml
+A  2014.05/mel_2014.05_async_2_frozen.xml
+A  2014.05/mel_2014.05_async_2_updates.xml
+A  2014.05/mel_2014.05_fastboot_addon_development.xml
+A  2014.05/mel_2014.05_fastboot_addon_jenkins.xml
+A  2014.05/mel_2014.05_frozen.xml
+A  2014.05/mel_2014.05_updates.xml
+A  2014.12/adit.xml
+A  2014.12/amd-dev.xml
+A  2014.12/amd.xml
+R  mel_2014.12_async_1_frozen.xml -> 2014.12/mel_2014.12_async_1_frozen.xml
+R  mel_2014.12_async_1_mbed.xml -> 2014.12/mel_2014.12_async_1_mbed.xml
+A  2014.12/mel_2014.12_birch.xml
+R  mel_2014.12_fastboot_addon_development.xml -> 2014.12/mel_2014.12_fastboot_addon_development.xml
+R  mel_2014.12_frozen.xml -> 2014.12/mel_2014.12_frozen.xml
+R  mel_2014.12_updates.xml -> 2014.12/mel_2014.12_updates.xml
+R  mel_2014.12_valor.xml -> 2014.12/mel_2014.12_valor.xml
+R  mel_Ash_fastboot_addon_development.xml -> 2014.12/mel_Ash_fastboot_addon_development.xml
+R  mel_birch_fastboot_addon_development.xml -> 2014.12/mel_birch_fastboot_addon_development.xml
+A  5.0.0/default.xml
+A  6.0.0/default.xml
+R  amd-dev.xml -> cedar/amd-dev.xml
+R  amd.xml -> cedar/amd.xml
+R  mel_2014.12_birch.xml -> cedar/mel_2014.12_birch.xml
+R  mel_cedar.xml -> cedar/mel_cedar.xml
+A  meibp/2013/default.xml
+A  meibp2013.05/default.xml
+A  meibp2013.08/default.xml
+A  mel4/current/default.xml
+A  next/default.xml
+A  pcsim/default.xml
+A  veracruz/sand/default.xml
+A  veracruz3/sand/default.xml
+?? git.commit.comment
+?? migrate/2015.08.31.migrate.output.log

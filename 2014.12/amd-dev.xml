@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Track the upstream MEL release -->
-  <include name="mel_2014.12_birch.xml"/>
+  <include name="2014.12/mel_2014.12_birch.xml"/>
 
   <!-- Add the QA private repository.  This is not AMD specific but we are -->
   <!-- one of the projects that use it. -->
@@ -11,4 +11,5 @@
   <project name="meta-amd.git" path="meta-amd"/>
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
+
 </manifest>

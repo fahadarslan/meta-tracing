@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" />
+  <remote fetch="https://github.com/MentorEmbedded/" name="mel" />
+  <remote fetch="git://github.com/" name="github" />
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" />
+
+  <default remote="mel" revision="meibp/2013" sync-j="4" />
+
+  <project name="poky.git" path="poky" revision="f7dc991689cb648899b08ce5c65907498740c25b" upstream="mentor/danny" />
+  <project name="openembedded/meta-oe.git" path="meta-oe" remote="github" revision="f00028caf257e386c0f3ae46bd4b3ba53dd0729d" upstream="danny" />
+
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="0621a1216a9e5f329a375925b297fe03e699589c" upstream="danny" />
+  <project name="meta-mentor.git" path="meta-mentor" revision="32ddcdc9ffdcd894c8916ebfdc737542a40beedd" upstream="mentor/mel6" />
+
+  <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="0508dec390feda14448f53823cea4e8f852b1905" upstream="release/2013.03" />
+  <project name="mel-docs.git" path="docs" revision="release/meibp2013.05" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="fd10ffc3d7825cb23fb7ae704bf6fd5e209eaeaf" upstream="release/2013.03" />
+  <project name="mel-scripts.git" path="scripts" revision="55a8183a6f975d397ec763e049f87d727c79e12f" upstream="meibp/2013" />
+
+  <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="b93c40348cdcb0022f4315edc1b9cb7474253b1e" upstream="danny" />
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="084331c6f72dfe8be2f4981c802c43ae44d3b812" upstream="danny" />
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="d44f005338012cc7111190122b2ab08a29c0e0e7" upstream="danny" />
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="4f776c456011e0fbfee5b47325aedfe475349246" upstream="danny" />
+
+  <project name="meta-mx6q.git" path="meta-mx6q" revision="08d51524627269ff11e46e95ab33b9a15d48891f" upstream="meibp/2013" />
+  <project name="broadcom-xlp.git" path="broadcom-xlp" remote="gitlab" revision="8aa98dfbb846ef06aa7bc97249acdeb170c70e35" upstream="release/6.0.0" />
+  <project name="intel-crossville.git" path="intel-crossville" remote="gitlab" revision="53ff14a120e89242cbf765b0e7ff3027f37663fd" upstream="release/6.0.0" />
+
+  <!-- ATP addon -->
+  <project name="meta-ivi.git" path="meta-ivi" remote="yocto" revision="c93d2cb4763eab05f179530e35bb08e38d54f4b2" upstream="3.0" />
+  <project name="mel-meta-atp.git" path="meta-atp" revision="c06fd56832824930f0675f93d873f98d615e2257" upstream="meibp/2013" />
+  <project name="meta-fsl-arm-private.git" path="meta-fsl-arm-private" revision="e1b0775048b79c46e0002a094305d317aab01605" upstream="meibp/2013" />
+
+  <!-- Linux Containers addon -->
+  <project name="meta-virtualization.git" path="meta-virtualization" revision="b3cf1d78c9b55b5dd61570cd5ba8bc28864287aa" upstream="meibp/2013" />
+
+  <!-- PC-Sim addon -->
+  <project name="mel-x86-pcsim.git" path="mel-x86-pcsim" revision="6afb99df7a34eb2069357b9da0e14daba2e56b39" upstream="master" />
+
+  <!-- QA addon -->
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="fda80d2573808d7435311683af631ca03c6d1a03" upstream="meibp/2013" />
+
+  <!-- MEIBP hotfixes -->
+  <project name="hotfixes-meibp.git" path="hotfixes" revision="release/meibp2013.05" />
+
+</manifest>

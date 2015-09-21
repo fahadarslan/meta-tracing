@@ -5,7 +5,7 @@
   <!-- pull updates by replacing/superceding revisions from the base configuration -->
 
   <!-- Derive from the MEL 2014.12 release configuration as a base -->
-  <include name="mel_2014.12_async_1_frozen.xml" />
+  <include name="2014.12/mel_2014.12_async_1_frozen.xml" />
 
   <!-- Remove repositories -->
   <remove-project name="meta-qt5-mel.git" />
@@ -38,7 +38,7 @@
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="8507a7eb0c4c64783cebe8e953381c95e2d2d92d" upstream="master" />
 
   <project name="meta-arago-glsdk.git" path="meta-arago-glsdk" revision="040c8ef9030397d4c7b01d7dcdeee699d1b935c3" upstream="release/2014.12" />
-  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="32c08822dc1833cc8983546ed392bd0d2416efae" upstream="release/2014.12" />
+  <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="release/2014.12-birch" />
   <project name="meta-ti-glsdk.git" path="meta-ti-glsdk" revision="1362f54c79a9c8bb78c98e5a15b4270840ee5f5c" upstream="release/2014.12" />
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="1596df150a37181b438f0fca547c86f2cc275e40" upstream="master" />
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="release/2014.12" />
