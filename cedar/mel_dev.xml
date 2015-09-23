@@ -61,7 +61,7 @@
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="52496ed3e2ec94d1d93426a766ec93ab400bc1df" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5920c55bc0764338cd29debeb67a885a12d12fe2" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a7841b85605ff1645675cab77569ff7576af9530" upstream="master"/>
-  <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="117623e4042e6a2b3fa55e21ac75b3f82df74bc3" upstream="master"/>
+  <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="1692d5c3020434404fc1ee6911a60b88287a5efb" upstream="master"/>
   <project name="poky.git" path="poky" remote="yocto" revision="7b86c771c80d0759c2ca0e57c46c4c966f89c49e" upstream="master"/>
 </manifest>
