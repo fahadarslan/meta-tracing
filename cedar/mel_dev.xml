@@ -55,13 +55,13 @@
   <!-- Non-Mentor repositories -->
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="afd057b4492beab1f6884b007a0a877e3a673fe9" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="cea00968b858b60222d68103491f076067d73876" upstream="master"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="59fc0c33d2de5db65af4c09c4d28fd78fa0f7b4f" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5e218aeacace801c4f01a1db8c99ac8a51421661" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="52496ed3e2ec94d1d93426a766ec93ab400bc1df" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5920c55bc0764338cd29debeb67a885a12d12fe2" upstream="master"/>
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a7841b85605ff1645675cab77569ff7576af9530" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="1692d5c3020434404fc1ee6911a60b88287a5efb" upstream="master"/>
-  <project name="poky.git" path="poky" remote="yocto" revision="7b86c771c80d0759c2ca0e57c46c4c966f89c49e" upstream="master"/>
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="f4533380c8a5c1d229f692222ee0c2ef9d187ef8" upstream="master"/>
+  <project name="poky.git" path="poky" remote="mel" revision="9b141d1889e0cd2e7906c9b738b5d928815bd202" upstream="cedar"/>
 </manifest>
