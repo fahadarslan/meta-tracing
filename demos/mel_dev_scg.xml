@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- This manifest defines the configuratin for the Secure Converged -->
+   <!-- Gateway Demo / Platform for Cedar. -->
+   <include name="cedar/mel_dev.xml"/>
+
+   <!-- Essential Mentor Repositories not currently included in -->
+   <!-- cedar/mel_dev.mxl -->
+   <project name="meta-mentor-mbed.git" path="meta-mentor-mbed" revision="master"/>
+   <project name="meta-mentor-proximetry.git" path="meta-mentor-proximetry" revision="master"/>
+   <project name="meta-mel-demos.git" path="meta-mel-demos" revision="master"/>
+
+   <!-- Required for the mbed Device Server -->
+   <project name="meta-oracle-java.git" path="meta-oracle-java" remote="yocto" revision="b27c8609366ef4fb9c73274c989d612bcfb0a6a2" upstream="master"/>
+
+</manifest>
