@@ -33,9 +33,6 @@
   <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip"/>
   <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua"/>
 
-  <!-- Erlang support -->
-  <project name="joaohf/meta-erlang.git" path="meta-erlang" remote="github" revision="e8e167d16fd55c85935da00f5fbe171688d4f39a" upstream="master"/>
-
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
 
