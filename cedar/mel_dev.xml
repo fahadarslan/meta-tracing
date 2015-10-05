@@ -44,7 +44,7 @@
 
   <!-- Security addon, w/ yocto's SELinux repository -->
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="8bbcf2bba7cd8cb7159f79fb7a3374de9fd5f593" upstream="master"/>
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="463f97bfd1180475540b7d91e3fec6a2b33966bd" upstream="master"/>
 
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
@@ -56,12 +56,12 @@
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="59fc0c33d2de5db65af4c09c4d28fd78fa0f7b4f" upstream="master"/>
-  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5e218aeacace801c4f01a1db8c99ac8a51421661" upstream="master"/>
+  <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="6e91701dcf68f9351db8bb0b92eb2d26af1b8f7f" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="52496ed3e2ec94d1d93426a766ec93ab400bc1df" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5920c55bc0764338cd29debeb67a885a12d12fe2" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="a7841b85605ff1645675cab77569ff7576af9530" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="839e04c295d96dca2c52ccc2a25e93a86a30b199" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="f4533380c8a5c1d229f692222ee0c2ef9d187ef8" upstream="master"/>
-  <project name="poky.git" path="poky" remote="mel" revision="67ea690f3571aba895dce79b5eeb73511e9344a0" upstream="cedar"/>
+  <project name="poky.git" path="poky" remote="mel" revision="6eeefa877b06a4c2d715d3946b917868fb518405" upstream="cedar"/>
 </manifest>
