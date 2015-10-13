@@ -41,7 +41,8 @@
 
   <!-- Security addon, w/ yocto's SELinux repository -->
   <project name="mel-meta-mentor-security.git" path="meta-mentor-security"/>
-  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="463f97bfd1180475540b7d91e3fec6a2b33966bd" upstream="master"/>
+  <!-- meta-selinux locked with upstream stable commit, please do not update it -->
+  <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="8bbcf2bba7cd8cb7159f79fb7a3374de9fd5f593" upstream="master"/>
 
   <!-- Industrial addon -->
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
