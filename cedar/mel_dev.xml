@@ -56,10 +56,10 @@
   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="59fc0c33d2de5db65af4c09c4d28fd78fa0f7b4f" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="6e91701dcf68f9351db8bb0b92eb2d26af1b8f7f" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="52496ed3e2ec94d1d93426a766ec93ab400bc1df" upstream="master"/>
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="51b4620392aa9041d8512549bfa554bea368c5ea" upstream="master"/>
   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5920c55bc0764338cd29debeb67a885a12d12fe2" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="839e04c295d96dca2c52ccc2a25e93a86a30b199" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="c861012e9c6babbefc60bb3b031f96559f99844a" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="f4533380c8a5c1d229f692222ee0c2ef9d187ef8" upstream="master"/>
-  <project name="poky.git" path="poky" remote="mel" revision="6c076919047b7cdf27b5d9be62498e3953d33859" upstream="cedar"/>
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="47f7d287a09329734629cb9d194ef4e077117d79" upstream="master"/>
+  <project name="poky.git" path="poky" remote="mel" revision="479fadd5e04bd584f745b4681dae3da4ef8e3a3c" upstream="cedar"/>
 </manifest>
