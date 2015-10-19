@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Derive from the AMD development configuration as a base -->
-  <include name="2014.12/amd-dev.xml" />
+  <include name="2014.12/amd-dev_frozen.xml" />
 
   <!-- Removed standard MEL repos that are unneeded for AMD-specific development -->
   <remove-project name="meta-fsl-arm.git" />
