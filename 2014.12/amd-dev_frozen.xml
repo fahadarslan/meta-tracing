@@ -8,8 +8,13 @@
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
 
   <!-- Add the AMD specific repositories -->
-  <project name="meta-amd.git" path="meta-amd"/>
+  <project name="meta-amd.git" path="meta-amd" revision="74f6459526a9fc5c6127f0ca5abd62cbb676d115" upstream="release/2014.12"/>
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
   <project name="meta-amd-private.git" path="meta-amd-private" revision="master" remote="gitlab-mv"/>
 
+  <!-- Update scripts and docs -->
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-docs.git" />
+  <project name="mel-scripts.git" path="scripts" revision="5bc7bde9288e9a85a049e90793a7f5b0321e070e" upstream= "release/2014.12-async1" />
+  <project name="mel-docs.git" path="docs" revision="adf9f797373ee3db607213b54914ca2bd7d8dfdc" upstream= "release/birch" />
 </manifest>
