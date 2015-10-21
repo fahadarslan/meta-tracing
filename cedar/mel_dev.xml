@@ -55,6 +55,9 @@
   <!-- i.MX6 Fastboot addon -->
   <project name="meta-fastboot.git" path="meta-fastboot" revision="master"/>
 
+  <!-- MMQP -->
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
+
   <!-- Non-Mentor repositories -->
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
