@@ -69,5 +69,5 @@
   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="c861012e9c6babbefc60bb3b031f96559f99844a" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="47f7d287a09329734629cb9d194ef4e077117d79" upstream="master"/>
-  <project name="poky.git" path="poky" remote="mel" revision="2eb8b2832d68a3c9905c9a4ff1c413ab617404c2" upstream="cedar"/>
+  <project name="poky.git" path="poky" remote="mel" revision="b03f0865723d3455d70a51412860ba8582c3c39c" upstream="cedar"/>
 </manifest>
