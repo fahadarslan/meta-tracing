@@ -6,7 +6,7 @@
   <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab"/>
   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
 
-  <default remote="mel" revision="master" sync-j="4"/>
+  <default remote="mel" revision="cedar" sync-j="4"/>
 
   <!-- Mentor public repositories -->
   <project name="meta-sourcery.git" path="meta-sourcery"/>
@@ -15,7 +15,7 @@
 
   <!-- Mentor private repositories -->
   <project name="mel-meta-mentor-private.git" path="meta-mentor-private"/>
-  <project name="mel-docs.git" path="docs"/>
+  <project name="mel-docs.git" path="docs" revision="release/cedar"/>
   <project name="mel-manufacturing.git" path="manufacturing"/>
   <project name="mel-scripts.git" path="scripts"/>
 
@@ -28,15 +28,15 @@
   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx"/>
   <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf"/>
   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk"/>
-  <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="master"/>
+  <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot"/>
   <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf"/>
   <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf"/>
-  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="cedar"/>
-  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="cedar"/>
+  <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip"/>
+  <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua"/>
 
   <!-- AMD specific -->
   <project name="meta-amd.git" path="meta-amd"/>
-  <project name="meta-amd-private.git" path="meta-amd-private" remote="gitlab-mv"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" remote="gitlab-mv" revision="master"/>
 
   <!-- QT5 support -->
   <project name="meta-qt5-mel.git" path="meta-qt5-mel"/>
@@ -53,7 +53,7 @@
   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial"/>
 
   <!-- i.MX6 Fastboot addon -->
-  <project name="meta-fastboot.git" path="meta-fastboot" revision="master"/>
+  <project name="meta-fastboot.git" path="meta-fastboot"/>
 
   <!-- MMQP -->
   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private"/>
