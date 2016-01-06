@@ -13,8 +13,10 @@
   <!-- Un-freeze other internal layers for updates -->
   <remove name="mel-docs.git"/>
   <remove name="mel-scripts.git"/>
+  <remove name="meta-sourcery.git" />
   <project name="mel-docs.git" path="docs" revision="release/cedar"/>
   <project name="mel-scripts.git" path="scripts" revision="cedar"/>
+  <project name="meta-sourcery.git" path="meta-sourcery" revision="cedar"/>
 
   <!-- Fetch the updates repo, the main manifest isn't doing it currently -->
   <project name="mel-updates.git" path="updates" revision="cedar"/>
