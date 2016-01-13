@@ -4,4 +4,6 @@
   <!-- Derive from the standard MEL configuration as a base -->
   <include name="cedar/mel_dev.xml"/>
 
+  <!-- Fetch the updates repo, the main manifest isn't doing it currently -->
+  <project name="mel-updates.git" path="updates" revision="cedar"/>
 </manifest>
