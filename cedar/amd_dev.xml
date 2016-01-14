@@ -2,7 +2,19 @@
 <manifest>
 
   <!-- Derive from the standard MEL configuration as a base -->
-  <include name="cedar/mel_dev.xml"/>
+  <include name="cedar/mel_frozen.xml"/>
+
+  <!-- AMD specific -->
+  <remove-project name="meta-amd.git"/>
+  <remove-project name="meta-amd-private.git"/>
+  <project name="meta-amd.git" path="meta-amd" revision="cedar"/>
+  <project name="meta-amd-private.git" path="meta-amd-private" remote="gitlab-mv" revision="master"/>
+
+  <!-- Un-freeze other internal layers for updates -->
+  <remove name="mel-docs.git"/>
+  <remove name="mel-scripts.git"/>
+  <project name="mel-docs.git" path="docs" revision="release/cedar"/>
+  <project name="mel-scripts.git" path="scripts" revision="cedar"/>
 
   <!-- Fetch the updates repo, the main manifest isn't doing it currently -->
   <project name="mel-updates.git" path="updates" revision="cedar"/>
