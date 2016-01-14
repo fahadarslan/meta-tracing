@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Derive from the standard MEL configuration as a base -->
-  <include name="cedar/mel_dev.xml"/>
+  <include name="cedar/mel_frozen.xml"/>
   
   <!-- Cepheid Cell-Core II BSP layer -->
   <project name="meta-cepheid-cellcore2.git" path="meta-cepheid-cellcore2" revision="master"/>
