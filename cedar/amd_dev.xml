@@ -11,9 +11,9 @@
   <project name="meta-amd-private.git" path="meta-amd-private" remote="gitlab-mv" revision="master"/>
 
   <!-- Un-freeze other internal layers for updates -->
-  <remove name="mel-docs.git"/>
-  <remove name="mel-scripts.git"/>
-  <remove name="meta-sourcery.git" />
+  <remove-project name="mel-docs.git"/>
+  <remove-project name="mel-scripts.git"/>
+  <remove-project name="meta-sourcery.git" />
   <project name="mel-docs.git" path="docs" revision="release/cedar"/>
   <project name="mel-scripts.git" path="scripts" revision="cedar"/>
   <project name="meta-sourcery.git" path="meta-sourcery" revision="cedar"/>
