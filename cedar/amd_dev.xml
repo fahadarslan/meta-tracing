@@ -14,9 +14,11 @@
   <remove-project name="mel-docs.git"/>
   <remove-project name="mel-scripts.git"/>
   <remove-project name="meta-sourcery.git" />
+  <remove-project name="meta-mentor-qa-private.git" />
   <project name="mel-docs.git" path="docs" revision="release/cedar"/>
   <project name="mel-scripts.git" path="scripts" revision="cedar"/>
   <project name="meta-sourcery.git" path="meta-sourcery" revision="cedar"/>
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="cedar"/>
 
   <!-- Fetch the updates repo, the main manifest isn't doing it currently -->
   <project name="mel-updates.git" path="updates" revision="cedar"/>

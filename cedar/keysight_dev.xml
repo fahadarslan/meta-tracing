@@ -7,8 +7,10 @@
   <!-- Keysight specific -->
   <project name="meta-keysight.git" path="meta-keysight"/>
 
-  <!-- Unlock scripts repository for latest Jenkins changes -->
+  <!-- Un-freeze layers for updates -->
   <remove-project name="mel-scripts.git" />
+  <remove-project name="meta-mentor-qa-private.git" />
   <project name="mel-scripts.git" path="scripts" revision="cedar"/>
+  <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="cedar"/>
 
 </manifest>
