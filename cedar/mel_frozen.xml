@@ -10,7 +10,7 @@
 
   <!-- Mentor public repositories -->
   <project name="meta-sourcery.git" path="meta-sourcery" revision="0cbc16acb520f5d7825891570c8dd44f0cf87cb1" upstream="cedar"/>
-  <project name="meta-mentor.git" path="meta-mentor" revision="5425c4093979616fc1e8304d756ee1ae9bfd427f" upstream="cedar"/>
+  <project name="meta-mentor.git" path="meta-mentor" revision="9c9016b3ddf7b71bd907d7775aab3f29bdca681f" upstream="cedar"/>
   <project name="meta-tracing.git" path="meta-tracing" revision="dd710f41235cca4dcf1323c805a4cf7aa0785736" upstream="cedar"/>
 
   <!-- Mentor private repositories -->
