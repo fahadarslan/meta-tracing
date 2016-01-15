@@ -7,4 +7,8 @@
   <!-- Keysight specific -->
   <project name="meta-keysight.git" path="meta-keysight"/>
 
+  <!-- Unlock scripts repository for latest Jenkins changes -->
+  <remove-project name="mel-scripts.git" />
+  <project name="mel-scripts.git" path="scripts" revision="cedar"/>
+
 </manifest>
