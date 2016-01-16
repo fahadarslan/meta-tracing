@@ -2,7 +2,7 @@
 <manifest>
 
   <!-- Derive from the standard MEL configuration as a base -->
-  <include name="cedar/mel_dev.xml"/>
+  <include name="cedar/mel_frozen.xml"/>
   
   <!-- meta-altera layer for Altera Cyclone 5 support -->
   <project name="kraj/meta-altera.git" path="meta-altera" remote="github" revision="d232376fa7b0bf3f22d57c6c747983d00c67e34d" upstream="master"/>
