@@ -13,4 +13,7 @@
    <!-- Required for the mbed Device Server -->
    <project name="meta-oracle-java.git" path="meta-oracle-java" remote="yocto" revision="b27c8609366ef4fb9c73274c989d612bcfb0a6a2" upstream="master"/>
 
+   <!-- Mentor Kodi repo. -->
+   <project name="meta-mentor-kodi.git" path="meta-mentor-kodi" revision="master"/>
+
 </manifest>
