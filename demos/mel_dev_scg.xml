@@ -16,4 +16,8 @@
    <!-- Mentor Kodi repo. -->
    <project name="meta-mentor-kodi.git" path="meta-mentor-kodi" revision="master"/>
 
+	<!-- Un-lock meta-mx6 to get latest change from cedar branch  -->
+	<remove-project name="meta-mx6.git"/>
+	<project name="meta-mx6.git" path="meta-mx6"  revision="cedar"/>
+
 </manifest>
