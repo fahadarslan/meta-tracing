@@ -4,6 +4,10 @@
   <!-- Derive from the standard MEL configuration as a base -->
   <include name="cedar/mel_frozen.xml"/>
 
+  <!-- Unlock meta-mentor for cedar async development -->
+  <remove-project name="meta-mentor.git"/>
+  <project name="meta-mentor.git" path="meta-mentor" revision="cedar"/>
+
   <!-- Update meta-intel to jethro stable for MinnowMAX -->
   <remove-project name="meta-intel.git"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="4e87c59bdedaa8c3e44fc02fd23be726c4d1dfb9" upstream="jethro"/>
