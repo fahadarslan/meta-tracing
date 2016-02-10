@@ -20,4 +20,9 @@
 	<remove-project name="meta-mx6.git"/>
 	<project name="meta-mx6.git" path="meta-mx6"  revision="cedar"/>
 
+   <!-- The memf layer has taken updates in the cedar branch that aren't --> 
+   <!-- part of the frozen manifest. -->
+   <remove-project name="mel-meta-mentor-mx6q-memf.git"/>
+   <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="86f0a4936eed7b4e77dc3c0eb0ffc30651204efe" upstream="cedar"/>
+
 </manifest>
