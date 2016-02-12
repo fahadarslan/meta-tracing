@@ -6,8 +6,9 @@
 
   <!-- Unlock meta-mentor for cedar async development -->
   <remove-project name="meta-mentor.git"/>
+  <remove-project name="mel-scripts.git"/>
   <project name="meta-mentor.git" path="meta-mentor" revision="cedar"/>
-
+  <project name="mel-scripts.git" path="scripts" revision="cedar"/>
   <!-- Update meta-intel to jethro stable for MinnowMAX -->
   <remove-project name="meta-intel.git"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="4e87c59bdedaa8c3e44fc02fd23be726c4d1dfb9" upstream="jethro"/>
