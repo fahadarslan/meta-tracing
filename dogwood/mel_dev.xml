@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
-  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
-  <remote fetch="git://github.com/" name="github"/>
-  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab"/>
-  <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto" alias="origin"/>
+  <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel" alias="origin"/>
+  <remote fetch="git://github.com/" name="github" alias="origin"/>
+  <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab" alias="origin"/>
+  <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv" alias="origin"/>
 
   <default remote="mel" revision="master" sync-j="4"/>
 
