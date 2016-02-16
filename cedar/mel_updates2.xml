@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- This manifest defines the configuration for the MEL Cedar update builds. -->
+  <!-- As such, it inherits the MEL frozen configuration/manifest, but will -->
+  <!-- pull updates to only the mel-updates and mel-scripts repositories -->
+
+  <!-- Derive from the MEL Cedar release configuration as a base -->
+  <include name="cedar/mel_frozen.xml" />
+
+  <!-- The update builds _must_ not change any layers except updates, scripts and manufacturing -->
+  <remove-project name="mel-scripts.git" />
+  <remove-project name="mel-manufacturing.git" />
+
+  <project name="mel-scripts.git" path="scripts" revision="cedar" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="cedar" />
+  <project name="mel-updates.git" path="updates" revision="cedar" />
+
+</manifest>
