@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+   <!-- This manifest defines the "gold" configuration used for the Embedded -->
+   <!-- World Conference 2016 in Nuremberg, Germany.  The demo includes      -->
+   <!-- MEL, Nucleus, MEMF and 3rd Party components.  Please refer to:       -->
+   <!--                                                                      -->
+   <!--     http://confluence.alm.mentorg.com:8090/x/JQePAw -->
+   <!--                                                                      -->
+   <!-- for full details.                                                    -->
+   <!--                                                                      -->
+   <!-- *NOTE*  While the MEL demo components are based on the Cedar release -->
+   <!--         We are specifically not including the frozen configuration   -->
+   <!--         for Cedar, instead setting all repo revisions explicitly.    -->
+   <!--                                                                      -->
+   <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+   <remote fetch="ssh://git@github.com/MentorEmbedded/" name="mel"/>
+   <remote fetch="git://github.com/" name="github"/>
+   <remote fetch="http://gitlab-gp.alm.mentorg.com/mel/" name="gitlab"/>
+   <remote fetch="http://gitlab.alm.mentorg.com/mvbuild" name="gitlab-mv"/>
+
+   <default remote="mel" revision="cedar" sync-j="4"/>
+   <!-- Mentor public repositories -->
+   <project name="meta-sourcery.git" path="meta-sourcery" revision="0cbc16acb520f5d7825891570c8dd44f0cf87cb1" upstream="cedar"/>
+   <project name="meta-mentor.git" path="meta-mentor" revision="9c9016b3ddf7b71bd907d7775aab3f29bdca681f" upstream="cedar"/>
+   <project name="meta-tracing.git" path="meta-tracing" revision="dd710f41235cca4dcf1323c805a4cf7aa0785736" upstream="cedar"/>
+
+   <!-- Mentor private repositories -->
+   <project name="mel-meta-mentor-private.git" path="meta-mentor-private" revision="b46068c6e9b23302b57a80e6249b64b3000c859a" upstream="cedar"/>
+   <project name="mel-docs.git" path="docs" revision="ca0c3816eabff37066522d845d43bbb8ca2ee37f"  upstream="release/cedar"/>
+   <project name="mel-manufacturing.git" path="manufacturing" revision="a057d5cbcb9b3a95139cc7f2ca86da9480985f97" upstream="cedar"/>
+   <project name="mel-scripts.git" path="scripts" revision="bd9a4b228a762f8667fc7e2b553f1daa80c7bb6f" upstream="cedar"/>
+
+   <project name="meta-mx6.git" path="meta-mx6"  revision="aaff93101b89902222c22e45e00529520f01303b" upstream="cedar"/>
+   <project name="meta-arago.git" path="meta-arago" revision="2a8d14f14cf4bffb9959ef0cd97f7f3904d1dbd4" upstream="cedar"/>
+   <project name="meta-glsdk.git" path="meta-glsdk" revision="5ed9ab72fb1c0e2bc3b1bd4d508c972bf2b21b0e" upstream="cedar"/>
+   <project name="meta-mentor-glsdk.git" path="meta-mentor-glsdk" revision="e5972888975d5fd7675308e68405e8aee69bb56b" upstream="cedar"/>
+   <project name="meta-dra7xx-evm.git" path="meta-dra7xx-evm" revision="9042ab9ab9274addf452045942f2089ffc3ad37d" upstream="cedar"/>
+   <project name="meta-mentor-xilinx.git" path="meta-mentor-xilinx" revision="18c9b4d67cb096daeeb33c76af620074182f5749" upstream="cedar"/>
+   <project name="meta-mentor-xilinx-memf.git" path="meta-mentor-xilinx-memf" revision="c56a79731b723a425ba8d92d0f83d906c2c4969a" upstream="cedar"/>
+   <project name="meta-mentor-amsdk.git" path="meta-mentor-amsdk" revision="9be02cd8d863f8d009f6227ab6819cafa53b69ea" upstream="cedar"/>
+   <project name="mel-meta-mentor-iot.git" path="meta-mentor-iot" revision="976f4dafd5372d4b1da13aa5e50acf1cf5c3ac6e" upstream="cedar"/>
+   <project name="mel-meta-mentor-mx6solox-memf.git" path="meta-mentor-mx6solox-memf" revision="9b9075f923b36d0d826881d920264494cb8978dd" upstream="cedar"/>
+   <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="86f0a4936eed7b4e77dc3c0eb0ffc30651204efe" upstream="cedar"/>
+   <project name="meta-mentor-softing-ethernetip.git" path="meta-mentor-softing-ethernetip" revision="079738cab683890967eb98079ad94beed217625b" upstream="cedar"/>
+   <project name="meta-mentor-softing-opcua.git" path="meta-mentor-softing-opcua" revision="3426e61456a582846a5aa8b0569d345b8ca2217b" upstream="cedar"/>
+
+   <!-- AMD specific -->
+   <project name="meta-amd.git" path="meta-amd" revision="06502e91b6381a55358ed22d46237954128fc9bd" upstream="cedar"/>
+   <project name="meta-amd-private.git" path="meta-amd-private" remote="gitlab-mv" revision="4ff4a0a618870d3737fe3d7691e5386889e69125" upstream="master"/>
+
+   <!-- QT5 support -->
+   <project name="meta-qt5-mel.git" path="meta-qt5-mel" revision="2d43956f159b010fce4da327b357e8625ddf87d2" upstream="cedar"/>
+
+   <!-- FSL PowerPC specific -->
+   <project name="mel-meta-fsl-networking.git" path="meta-fsl-networking" revision="148915cfe5aa29831811f35e1cb17afc5fd076bd" upstream="cedar"/>
+
+   <!-- Security addon, w/ yocto's SELinux repository -->
+   <project name="mel-meta-mentor-security.git" path="meta-mentor-security" revision="655d300094dd7367e3ecb86cfa6249347ceb5667" upstream="cedar"/>
+
+   <!-- meta-selinux locked with upstream stable commit, please do not update it -->
+   <project name="meta-selinux.git" path="meta-selinux" remote="yocto" revision="8bbcf2bba7cd8cb7159f79fb7a3374de9fd5f593" upstream="master"/>
+
+   <!-- Industrial addon -->
+   <project name="meta-mentor-industrial.git" path="meta-mentor-industrial" revision="5fe0ba77dca9a60a771803d8edf0f513d96494eb" upstream="cedar"/>
+
+   <!-- MMQP -->
+   <project name="meta-mentor-qa-private.git" path="meta-mentor-qa-private" revision="103026fa0b4b62a96e76c1599180a8cec20b9273" upstream="cedar"/>
+
+   <!-- Non-Mentor repositories -->
+   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
+   <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="59fc0c33d2de5db65af4c09c4d28fd78fa0f7b4f" upstream="master"/>
+   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="6e91701dcf68f9351db8bb0b92eb2d26af1b8f7f" upstream="master"/>
+   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
+   <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="51b4620392aa9041d8512549bfa554bea368c5ea" upstream="master"/>
+   <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="5920c55bc0764338cd29debeb67a885a12d12fe2" upstream="master"/>
+   <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="c861012e9c6babbefc60bb3b031f96559f99844a" upstream="master"/>
+   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="fe4e6d83e77dadb2d677653a9dc8a64c46b9fb81" upstream="master"/>
+   <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="47f7d287a09329734629cb9d194ef4e077117d79" upstream="master"/>
+   <project name="poky.git" path="poky" revision= "44886369d9855d192809499bc8dc03e110a12a9a" upstream="cedar"/>
+
+   <project name="meta-mentor-mbed.git" path="meta-mentor-mbed" revision="24e0d722d6a020f8902c3c308176004b152665e7"/>
+   <project name="meta-mentor-proximetry.git" path="meta-mentor-proximetry" revision="52539605268eb6b544009b5fc859f208171720e1"/>
+   <project name="meta-mel-demos.git" path="meta-mel-demos" revision="7302cc0a60820c52d88891cd482dabb30d22aa99"/>
+
+   <!-- Required for the mbed Device Server -->
+   <project name="meta-oracle-java.git" path="meta-oracle-java" remote="yocto" revision="b27c8609366ef4fb9c73274c989d612bcfb0a6a2" upstream="master"/>
+
+   <!-- Mentor Kodi repo. -->
+   <project name="meta-mentor-kodi.git" path="meta-mentor-kodi" revision="master"/>
+
+</manifest>
