@@ -62,13 +62,13 @@
   <!-- Non-Mentor repositories -->
   <project name="meta-fsl-arm.git" path="meta-fsl-arm" remote="yocto" revision="44a5115b6ece869cfb10714423e6956128dbaef8" upstream="fido"/>
 
-  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="cb8d8ffd03645f58b530cc62e9a943a7bf93476c" upstream="master"/>
+  <project name="meta-fsl-ppc.git" path="meta-fsl-ppc" remote="yocto" revision="51a2d618958ec9bd1c99b34c7ce7c7fa7d051b7d" upstream="master"/>
   <project name="meta-intel.git" path="meta-intel" remote="yocto" revision="5640cd6bc13a520ba4bf73c94fe9b739ac23c7e6" upstream="master"/>
   <project name="meta-minnow.git" path="meta-minnow" remote="yocto" revision="9c965ef5252e383843d796cd8b50c61b3034b6ae" upstream="master"/>
-  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="4a0acfa4111600b7cb5ae7b16cd6bfa5df2e2123" upstream="master"/>
-  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="afec0bb2795815436c057d507dd8ec84141ea380" upstream="master"/>
-  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="2da5cb4bfc0eba7b5838d5ca3bc1151a004979de" upstream="master"/>
+  <project name="meta-qt5/meta-qt5.git" path="meta-qt5" remote="github" revision="52b0e06d02e7f43cf54f447e0487c40c2c1fed00" upstream="master"/>
+  <project name="meta-ti.git" path="meta-ti" remote="yocto" revision="7baa1a878b643d7ed8c7ee0f7c9d80ee2db9c3d6" upstream="master"/>
+  <project name="meta-virtualization.git" path="meta-virtualization" remote="yocto" revision="f529090d7f99b8d2ceb67f9ed93a772c72778679" upstream="master"/>
   <project name="meta-xilinx.git" path="meta-xilinx" remote="yocto" revision="3353261d9036b691fe83b3f92598b25238b8abbc" upstream="master"/>
-  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="4d60de68a2cc775586b8f7a015064abdcce7d6cd" upstream="master"/>
+  <project name="openembedded/meta-openembedded.git" path="meta-oe" remote="github" revision="92b50622506c14e08e4d4a725818a685a463f46a" upstream="master"/>
   <project name="poky.git" path="poky" revision="dogwood"/>
 </manifest>
