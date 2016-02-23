@@ -11,8 +11,9 @@
   <remove-project name="mel-scripts.git" />
   <remove-project name="mel-manufacturing.git" />
 
-  <project name="mel-scripts.git" path="scripts" revision="cedar" />
-  <project name="mel-manufacturing.git" path="manufacturing" revision="cedar" />
-  <project name="mel-updates.git" path="updates" revision="cedar" />
+  <project name="mel-scripts.git" path="scripts" revision="c5673f6916bfcd10b9b4e4c33c368ae0d14ceea7" upstream="cedar" />
+  <project name="mel-manufacturing.git" path="manufacturing" revision="a057d5cbcb9b3a95139cc7f2ca86da9480985f97" upstream="cedar" />
+  <project name="mel-updates.git" path="updates" revision="e8dffb9c2f80517a44352ffd5869323ef1831545" upstream="cedar" />
+
 
 </manifest>
