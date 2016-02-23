@@ -22,4 +22,8 @@
   <!-- update mx6q memf support -->
   <remove-project name="mel-meta-mentor-mx6q-memf.git"/>
   <project name="mel-meta-mentor-mx6q-memf.git" path="meta-mentor-mx6q-memf" revision="cedar" upstream="cedar"/>
+
+  <!-- meta-mentor-ti-processor-sdk layer for am57xx -->
+  <project name="meta-mentor-ti-processor-sdk.git" path="meta-mentor-ti-processor-sdk" revision="cedar" upstream="cedar"/>
+
 </manifest>
