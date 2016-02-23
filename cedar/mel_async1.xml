@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <!-- Derive from the standard MEL configuration as a base -->
-  <include name="cedar/mel_frozen.xml"/>
+  <!-- Derive from the MEL_updates2 configuration as a base -->
+  <include name="cedar/mel_updates2_frozen.xml"/>
 
   <!-- Unlock meta-mentor, scripts and manufacturing for cedar async development -->
   <remove-project name="meta-mentor.git"/>
