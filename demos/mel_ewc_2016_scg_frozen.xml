@@ -80,7 +80,7 @@
 
    <project name="meta-mentor-mbed.git" path="meta-mentor-mbed" revision="24e0d722d6a020f8902c3c308176004b152665e7"/>
    <project name="meta-mentor-proximetry.git" path="meta-mentor-proximetry" revision="52539605268eb6b544009b5fc859f208171720e1"/>
-   <project name="meta-mel-demos.git" path="meta-mel-demos" revision="7302cc0a60820c52d88891cd482dabb30d22aa99"/>
+   <project name="meta-mel-demos.git" path="meta-mel-demos" revision="878a25cc1677e3600a941e87b69b48afaab67bdc"/>
 
    <!-- Required for the mbed Device Server -->
    <project name="meta-oracle-java.git" path="meta-oracle-java" remote="yocto" revision="b27c8609366ef4fb9c73274c989d612bcfb0a6a2" upstream="master"/>
