@@ -30,4 +30,8 @@
   <!-- meta-mentor-ti-processor-sdk layer for am57xx -->
   <project name="meta-mentor-ti-processor-sdk.git" path="meta-mentor-ti-processor-sdk" revision="cedar" upstream="cedar"/>
 
+  <!-- Unlock meta-tracing cedar branch for Async -->
+  <remove-project name="meta-tracing.git"/>
+  <project name="meta-tracing.git" path="meta-tracing" revision="cedar"/>
+
 </manifest>
